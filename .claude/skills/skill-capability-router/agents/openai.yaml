@@ -1,0 +1,7 @@
+interface:
+  display_name: "Skill Capability Router"
+  short_description: "Route tasks to the best installed skill via a generated capability registry"
+  default_prompt: "Use $skill-capability-router to find and invoke the right installed skill for a tool/domain task from the generated capability registry."
+
+policy:
+  allow_implicit_invocation: true

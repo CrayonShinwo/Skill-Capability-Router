@@ -1,0 +1,13 @@
+# Local generation metadata (contains local paths) — not for publishing
+data/manifest.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary diagnostics
+scripts/_diag*.py
+
+# OS
+Thumbs.db
+.DS_Store
