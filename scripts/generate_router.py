@@ -63,6 +63,9 @@ CATEGORY_ORDER = [
     "documents-files",
     "ecommerce-retail",
     "travel-events",
+    "sports-gaming",
+    "health-fitness",
+    "logistics-field",
     "education",
     "general",
 ]
@@ -94,7 +97,8 @@ CATEGORY_KEYWORDS = {
         "peopledatalabs", "apollo", "contact", "prospect", "pipeline",
         "salescrush", "gong", "seismic", "moxie", "forcemanager",
         "jobnimbus", "simla", "keap", "sidetracker", "autobound", "axonaut",
-        "breeze", "fireberry", "godial", "firmbase", "quote",
+        "breeze", "fireberry", "godial", "firmbase", "quote", "accelo",
+        "affinity", "deals", "opportunity",
     ],
     # --- email + marketing campaigns + outreach ---------------------------
     "marketing-email": [
@@ -112,7 +116,8 @@ CATEGORY_KEYWORDS = {
         "vero", "remarkety", "kit", "tapfiliate", "goody", "gagelist",
         "typefully", "stannp", "hyperise", "bouncer", "clearout",
         "feathery", "tally", "fomo", "leadgen", "affiliate", "forms",
-        "endorsal", "goodbits", "hotspot",
+        "endorsal", "goodbits", "hotspot", "basin", "poptin", "pop-up",
+        "lead-form", "signup-form",
     ],
     # --- SEO, SEM, ad platforms, search ------------------------------------
     "seo-analytics": [
@@ -143,7 +148,7 @@ CATEGORY_KEYWORDS = {
         "hookdeck", "svix", "pushbullet", "pushover", "revolt", "missive",
         "vestaboard", "internal-comms", "mocean", "textit", "livesession",
         "dailybot", "demio", "webinar", "group-chat", "real-time",
-        "agent-mail", "email-sending",
+        "agent-mail", "email-sending", "many-chat", "instant-messaging",
     ],
     # --- project & task management, time tracking ----------------------------
     "project-management": [
@@ -157,6 +162,7 @@ CATEGORY_KEYWORDS = {
         "process-street", "fibery", "productboard", "productlane",
         "habitica", "gist", "maintainx", "bigpicture", "beeminder",
         "schedule", "booking-calendar", "meeting-notes", "sprint-planning",
+        "googlecalendar", "appointo", "appointment", "booking-link",
     ],
     # --- HR, recruiting, onboarding -----------------------------------------
     "hr-recruiting": [
@@ -223,7 +229,9 @@ CATEGORY_KEYWORDS = {
         "code-review", "packages", "releases", "feature-flag", "screenshots",
         "atlassian", "abstract", "domain-name-brainstormer",
         "changelog-generator", "customjs", "metaphor", "neutrino", "agility",
-        "here", "zeplin",
+        "here", "zeplin", "grafbase", "agentql", "agenty", "apex27",
+        "browser-agent", "scraper", "web-scraping", "proxiedmail",
+        "passslot", "wallet-pass", "email-proxy",
     ],
     # --- data, databases, analytics, BI --------------------------------------
     "data-databases": [
@@ -241,7 +249,8 @@ CATEGORY_KEYWORDS = {
         "tisane", "dromo", "enigma", "weather", "airvisual", "ambee",
         "ambient", "stormglass", "sensors", "insights", "spreadsheet-data",
         "data-extraction", "data-cleaning", "data-import", "parsera",
-        "genderize", "turbot", "stock-data", "sentiment-analysis",
+        "genderize", "turbot", "stock-data", "sentiment-analysis", "corrently",
+        "energy", "utilities",
     ],
     # --- AI / ML / LLM / media generation -------------------------------------
     "ai-ml-media": [
@@ -264,7 +273,8 @@ CATEGORY_KEYWORDS = {
         "spotify", "toneden", "ritekit", "castingwords", "gladia",
         "cincopa", "cardly", "flexisign", "convolo", "entelligence",
         "generation", "ai-agents", "ai-search", "neural", "deep-learning",
-        "bolna", "alttext", "spotlightr", "video-hosting",
+        "bolna", "alttext", "spotlightr", "video-hosting", "abyssale",
+        "insighto", "placid", "image-generation", "visual-generation",
     ],
     # --- documents, files, storage --------------------------------------------
     "documents-files": [
@@ -284,7 +294,7 @@ CATEGORY_KEYWORDS = {
         "visme", "ignisign", "firmao", "affinda", "amara", "bidsketch",
         "certifier", "etermin", "documents", "templates", "report",
         "file-conversion", "word-docs", "spreadsheets", "slides",
-        "brandfetch",
+        "brandfetch", "accredible", "certificate", "badge",
     ],
     # --- ecommerce, retail, payments checkout, shipping -----------------------
     "ecommerce-retail": [
@@ -302,7 +312,8 @@ CATEGORY_KEYWORDS = {
         "amazon", "bestbuy", "givebutter", "raisely", "gift-up",
         "memberspot", "dpd2", "beaconstac", "blackbaud", "cults",
         "affiliate-commerce", "marketplace", "product-feed", "dropshipping",
-        "zylvie", "digital-product",
+        "zylvie", "digital-product", "amcards", "daffy", "gift-card",
+        "donation", "fundraising",
     ],
     # --- travel, events, booking, tickets --------------------------------------
     "travel-events": [
@@ -314,6 +325,23 @@ CATEGORY_KEYWORDS = {
         "qantas", "singaporeair", "hotel-booking", "viator", "humanitix",
         "evenium", "expofp", "rafflys", "lodgify", "booqable", "cabinpanda",
         "apaleo", "hospitality", "guest", "tours", "itinerary",
+    ],
+    # --- gaming, sports, esports -----------------------------------------------
+    "sports-gaming": [
+        "battlenet", "epic-games", "dungeon-fighter", "college-football",
+        "steam-", "sports", "esports", "game", "gaming", "score", "odds",
+        "league", "tournament",
+    ],
+    # --- health, fitness, wellness ---------------------------------------------
+    "health-fitness": [
+        "fitbit", "strava", "health", "fitness", "wellness", "workout",
+        "heart-rate", "sleep", "nutrition", "medical", "telehealth", "vitals",
+    ],
+    # --- logistics, field service, routing ---------------------------------------
+    "logistics-field": [
+        "detrack", "optimoroute", "route4me", "servicem8", "logistics",
+        "dispatch", "field-service", "route-optimization", "fleet", "courier",
+        "last-mile", "fleet-management",
     ],
     # --- education, learning, assessment --------------------------------------
     "education": [
@@ -348,7 +376,12 @@ DOMAIN_WORD_FALLBACK = [
     ("api", "dev-tools"), ("cloud", "dev-tools"), ("auth", "dev-tools"),
     ("security", "dev-tools"), ("test", "dev-tools"), ("browser", "dev-tools"),
     ("feedback", "support-helpdesk"), ("reviews", "support-helpdesk"),
-    ("games", "general"), ("gaming", "general"), ("health", "general"),
+    ("games", "sports-gaming"), ("gaming", "sports-gaming"),
+    ("sports", "sports-gaming"), ("odds", "sports-gaming"),
+    ("health", "health-fitness"), ("fitness", "health-fitness"),
+    ("medical", "health-fitness"), ("wellness", "health-fitness"),
+    ("logistics", "logistics-field"), ("courier", "logistics-field"),
+    ("dispatch", "logistics-field"),
     ("education", "education"), ("course", "education"), ("lms", "education"),
     ("class", "education"), ("quiz", "education"),
 ]
@@ -382,6 +415,10 @@ BASE_OVERRIDES = {
     "artifacts-builder": "ai-ml-media",
     "modelry": "general",
     "zenrows": "dev-tools",
+    "cal": "project-management",
+    "canvas": "ai-ml-media",
+    "customer.io": "marketing-email",
+    "grafbase": "dev-tools",
 }
 
 
@@ -603,6 +640,56 @@ def render_semantic_table(catalog: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def render_index(catalog: list[dict]) -> str:
+    from collections import Counter
+    counts = Counter(e["category"] for e in catalog)
+    kinds = Counter(e["kind"] for e in catalog)
+    lines = []
+    lines.append("# Skill Capability Router — Data Index")
+    lines.append("")
+    n_cats = sum(1 for c in CATEGORY_ORDER if counts.get(c))
+    lines.append(f"> Generated by `scripts/generate_router.py` from the CC Switch skill registry. "
+                 f"{len(catalog)} canonical skills, {n_cats} categories. Do not edit by hand.")
+    lines.append("")
+    lines.append("## Files")
+    lines.append("")
+    lines.append("| File | What it is | When to read |")
+    lines.append("| --- | --- | --- |")
+    lines.append("| `thin-table.md` | Compact discovery table, grouped by category, one line per skill | First — route here on a tool/domain mention |")
+    lines.append("| `semantic-table.md` | Full per-skill rows (capability, aliases, description, enablement) | After a thin-table match |")
+    lines.append("| `skills.json` | Machine-readable full catalog | Programmatic use |")
+    lines.append("")
+    lines.append("## Categories")
+    lines.append("")
+    lines.append("Skills route to exactly one category. The category map is the curated keyword table in the generator (`CATEGORY_KEYWORDS` + `BASE_OVERRIDES`); unmatched skills fall back to `general`.")
+    lines.append("")
+    lines.append("| Category | Count |")
+    lines.append("| --- | --- |")
+    for cat in CATEGORY_ORDER:
+        if counts.get(cat):
+            lines.append(f"| `{cat}` | {counts[cat]} |")
+    lines.append("")
+    lines.append(f"Kinds: **{kinds.get('automation', 0)}** automation (`*-automation`, executed via Rube MCP / Composio) · "
+                 f"**{kinds.get('utility', 0)}** utility.")
+    lines.append("")
+    lines.append("## How to use")
+    lines.append("")
+    lines.append("1. Read `thin-table.md` category matching the task's tool/domain.")
+    lines.append("2. On a match, open the same skill's row in `semantic-table.md`, then invoke the skill by its **name/directory** (e.g. `xero-automation`).")
+    lines.append("3. For `*-automation` skills, search Rube MCP (Composio) tools for current schemas before executing.")
+    lines.append("4. Underscore/hyphen duplicates are collapsed; route to the canonical hyphen name.")
+    lines.append("")
+    lines.append("## Regenerate")
+    lines.append("")
+    lines.append("```bash")
+    lines.append("python scripts/generate_router.py")
+    lines.append("```")
+    lines.append("")
+    lines.append("Re-runs against `~/.cc-switch/cc-switch.db` (or `--db`/`--json`) and rewrites all four files deterministically.")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def validate(catalog: list[dict]) -> list[str]:
     errors = []
     names = [e["name"] for e in catalog]
@@ -662,7 +749,9 @@ def main() -> int:
     with open(os.path.join(data_dir, "skills.json"), "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
 
-    # thin + semantic tables
+    # index + thin + semantic tables
+    with open(os.path.join(data_dir, "README.md"), "w", encoding="utf-8") as f:
+        f.write(render_index(catalog))
     with open(os.path.join(data_dir, "thin-table.md"), "w", encoding="utf-8") as f:
         f.write(render_thin_table(catalog))
     with open(os.path.join(data_dir, "semantic-table.md"), "w", encoding="utf-8") as f:
@@ -687,7 +776,7 @@ def main() -> int:
     print(f"[ok] categories: {dict(cats)}")
     print(f"[ok] kinds: {dict(kinds)}  sources: {dict(sources)}")
     print(f"[ok] validation errors: {len(errors)}")
-    print(f"[ok] wrote data/skills.json, data/thin-table.md, data/semantic-table.md, data/manifest.json")
+    print(f"[ok] wrote data/README.md, data/skills.json, data/thin-table.md, data/semantic-table.md, data/manifest.json")
     return 0
 
 

@@ -1,6 +1,6 @@
 # Skill-Capability-Router
 
-Route a task to the best installed skill using a **generated capability registry**. Built for environments where a large skill library is managed by a central tool (here: CC Switch + Claude Code) — 845 skills across 17 categories, one thin discovery table.
+Route a task to the best installed skill using a **generated capability registry**. Built for environments where a large skill library is managed by a central tool (here: CC Switch + Claude Code) — 846 skills across 20 categories, one thin discovery table.
 
 - [中文说明](README.zh-CN.md)
 - `data/thin-table.md` — route here first
@@ -43,6 +43,8 @@ python scripts/generate_router.py --validate-only           # check without writ
 ```
 .claude/skills/skill-capability-router/   the installable router skill (SKILL.md + agents/)
 scripts/generate_router.py                deterministic registry generator
+scripts/test_router.py                    route-test against natural-language tasks
+data/README.md                            generated index: files, categories, how to use
 data/skills.json                          full catalog (canonical + aliases + enablement)
 data/thin-table.md                        discovery table, grouped by category
 data/semantic-table.md                    full per-skill rows
@@ -51,7 +53,7 @@ data/manifest.json                        generation metadata + validation repor
 
 ## Categories
 
-`finance-payments` · `crm-sales` · `marketing-email` · `seo-analytics` · `social-media` · `communication-collab` · `project-management` · `hr-recruiting` · `support-helpdesk` · `dev-tools` · `data-databases` · `ai-ml-media` · `documents-files` · `ecommerce-retail` · `travel-events` · `education` · `general`
+`finance-payments` · `crm-sales` · `marketing-email` · `seo-analytics` · `social-media` · `communication-collab` · `project-management` · `hr-recruiting` · `support-helpdesk` · `dev-tools` · `data-databases` · `ai-ml-media` · `documents-files` · `ecommerce-retail` · `travel-events` · `sports-gaming` · `health-fitness` · `logistics-field` · `education` · `general`
 
 The category map is a curated keyword table inside the generator (`CATEGORY_KEYWORDS` + `BASE_OVERRIDES`). Adjust it and regenerate — output is deterministic.
 
@@ -59,7 +61,7 @@ The category map is a curated keyword table inside the generator (`CATEGORY_KEYW
 
 - The published catalog reflects the author's skill set and per-client enablement. Regenerate for your own environment.
 - **No secrets.** `data/` holds only skill names, descriptions, categories, and enablement flags — no tokens, keys, or paths.
-- `scripts/generate_router.py` is dependency-free (stdlib only) and validated (0 errors on 867 source rows → 845 canonical entries).
+- `scripts/generate_router.py` is dependency-free (stdlib only) and validated (0 errors on 868 source rows → 846 canonical entries). `scripts/test_router.py` runs sample natural-language tasks through the routing logic — `python scripts/test_router.py "query Snowflake"`.
 
 ## License
 
