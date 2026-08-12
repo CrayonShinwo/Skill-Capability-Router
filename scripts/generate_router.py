@@ -640,6 +640,142 @@ def render_semantic_table(catalog: list[dict]) -> str:
     return "\n".join(lines)
 
 
+ZH_CATEGORY = {
+    "finance-payments": "财务与支付",
+    "crm-sales": "客户关系与销售",
+    "marketing-email": "营销与邮件",
+    "seo-analytics": "SEO 与分析",
+    "social-media": "社交媒体",
+    "communication-collab": "沟通与协作",
+    "project-management": "项目管理与工时",
+    "hr-recruiting": "人力资源与招聘",
+    "support-helpdesk": "客服与工单",
+    "dev-tools": "开发与工具",
+    "data-databases": "数据与数据库",
+    "ai-ml-media": "AI / 机器学习与媒体",
+    "documents-files": "文档与文件",
+    "ecommerce-retail": "电商与零售",
+    "travel-events": "旅行与活动",
+    "sports-gaming": "体育与游戏",
+    "health-fitness": "健康与健身",
+    "logistics-field": "物流与现场",
+    "education": "教育",
+    "general": "通用 / 其他",
+}
+
+ZH_VERB = {
+    "automate": "自动化",
+    "use": "处理",
+}
+
+# 常见工具的中文释义;未收录的用「自动化/处理 + 英文名」兜底
+TOOL_ZH = {
+    "xero": "在线记账",
+    "quickbooks": "会计记账",
+    "freshbooks": "会计开票",
+    "wave-accounting": "免费记账",
+    "zoho-books": "Zoho 记账",
+    "zoho-invoice": "Zoho 开票",
+    "zoho-inventory": "Zoho 库存",
+    "sage": "企业管理软件",
+    "netsuite": "ERP/财务套件",
+    "salesforce": "CRM 客户管理",
+    "hubspot": "CRM/营销套件",
+    "highlevel": "营销 CRM",
+    "zoho-bigin": "Zoho 轻 CRM",
+    "attio": "现代 CRM",
+    "pipeline-crm": "销售管道 CRM",
+    "capsule-crm": "轻量 CRM",
+    "kommo": "销售消息 CRM",
+    "salesmate": "销售 CRM",
+    "slack": "团队沟通",
+    "discord": "社群聊天",
+    "teams": "微软团队协作",
+    "webex": "视频会议",
+    "zoom": "视频会议",
+    "twilio": "短信/通话 API",
+    "sendgrid": "邮件发送",
+    "resend": "开发邮件发送",
+    "mailchimp": "邮件营销",
+    "mailerlite": "邮件营销",
+    "active-campaign": "邮件自动化营销",
+    "klaviyo": "电商邮件营销",
+    "github": "代码托管",
+    "gitlab": "代码托管/CI",
+    "bitbucket": "代码托管",
+    "jira": "项目管理/缺陷跟踪",
+    "linear": "极简项目管理",
+    "notion": "笔记/知识库",
+    "trello": "看板任务",
+    "asana": "任务协作",
+    "monday": "团队工作平台",
+    "clickup": "一体化项目管理",
+    "snowflake": "云数仓",
+    "bigquery": "谷歌云数仓",
+    "postgres": "PostgreSQL 数据库",
+    "mysql": "MySQL 数据库",
+    "mongodb": "MongoDB 文档库",
+    "supabase": "开源后端/BaaS",
+    "openai": "OpenAI 大模型",
+    "anthropic": "Anthropic/Claude",
+    "gemini": "谷歌 Gemini",
+    "groq": "Groq 高速推理",
+    "mistral": "Mistral 模型",
+    "deepgram": "语音转录",
+    "elevenlabs": "AI 语音合成",
+    "heygen": "AI 数字人视频",
+    "canvas-design": "视觉设计",
+    "pdf": "PDF 文档",
+    "docx": "Word 文档",
+    "xlsx": "Excel 表格",
+    "pptx": "PPT 演示",
+    "shopify": "电商建站",
+    "stripe": "支付收单",
+    "paypal": "支付",
+    "square": "线下支付/POS",
+    "amazon": "亚马逊电商",
+    "zendesk": "客服工单",
+    "intercom": "在线客服",
+    "gorgias": "电商客服",
+    "freshdesk": "客服工单",
+    "ashby": "招聘 ATS",
+    "lever": "招聘 ATS",
+    "workday": "HR/财务套件",
+    "breezy-hr": "招聘 ATS",
+    "eventbrite": "活动票务",
+    "ticketmaster": "票务平台",
+    "airbnb": "民宿预订",
+    "github-vault-router": "GitHub 能力路由工作流",
+}
+
+
+def render_zh_catalog(catalog: list[dict]) -> str:
+    from collections import Counter
+    counts = Counter(e["category"] for e in catalog)
+    lines = []
+    lines.append("# 技能能力路由 — 中文技能目录")
+    lines.append("")
+    lines.append(f"> 由 `scripts/generate_router.py` 生成。共 **{len(catalog)}** 个技能、**{len(counts)}** 个分类。")
+    lines.append("> 技能名保持英文(调用时用),释义为中文;未收录释义的自动化技能用「自动化 + 英文名」。")
+    lines.append("")
+    idx = 1
+    for cat in CATEGORY_ORDER:
+        items = [e for e in catalog if e["category"] == cat]
+        if not items:
+            continue
+        zh = ZH_CATEGORY.get(cat, cat)
+        lines.append(f"## {idx}. {zh} · `{cat}`({len(items)})")
+        lines.append("")
+        for e in sorted(items, key=lambda x: x["name"]):
+            verb = ZH_VERB.get(e["verb"], e["verb"])
+            gloss = TOOL_ZH.get(e["base"], "")
+            gloss = f"({gloss})" if gloss else ""
+            lines.append(f"- `{e['name']}` — {verb} {e['object']}{gloss}")
+        lines.append("")
+        idx += 1
+    return "\n".join(lines)
+
+
 def render_index(catalog: list[dict]) -> str:
     from collections import Counter
     counts = Counter(e["category"] for e in catalog)
@@ -749,9 +885,11 @@ def main() -> int:
     with open(os.path.join(data_dir, "skills.json"), "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
 
-    # index + thin + semantic tables
+    # index + zh catalog + thin + semantic tables
     with open(os.path.join(data_dir, "README.md"), "w", encoding="utf-8") as f:
         f.write(render_index(catalog))
+    with open(os.path.join(data_dir, "skills.zh-CN.md"), "w", encoding="utf-8") as f:
+        f.write(render_zh_catalog(catalog))
     with open(os.path.join(data_dir, "thin-table.md"), "w", encoding="utf-8") as f:
         f.write(render_thin_table(catalog))
     with open(os.path.join(data_dir, "semantic-table.md"), "w", encoding="utf-8") as f:
@@ -776,7 +914,7 @@ def main() -> int:
     print(f"[ok] categories: {dict(cats)}")
     print(f"[ok] kinds: {dict(kinds)}  sources: {dict(sources)}")
     print(f"[ok] validation errors: {len(errors)}")
-    print(f"[ok] wrote data/README.md, data/skills.json, data/thin-table.md, data/semantic-table.md, data/manifest.json")
+    print(f"[ok] wrote data/README.md, data/skills.zh-CN.md, data/skills.json, data/thin-table.md, data/semantic-table.md, data/manifest.json")
     return 0
 
 

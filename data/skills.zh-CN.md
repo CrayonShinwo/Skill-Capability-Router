@@ -1,0 +1,910 @@
+# 技能能力路由 — 中文技能目录
+
+> 由 `scripts/generate_router.py` 生成。共 **846** 个技能、**20** 个分类。
+> 技能名保持英文(调用时用),释义为中文;未收录释义的自动化技能用「自动化 + 英文名」。
+
+## 1. 财务与支付 · `finance-payments`(56)
+
+- `alchemy-automation` — 自动化 Alchemy
+- `alpha-vantage-automation` — 自动化 Alpha Vantage
+- `altoviz-automation` — 自动化 Altoviz
+- `beaconchain-automation` — 自动化 Beaconchain
+- `bench-automation` — 自动化 Bench
+- `benchmark-email-automation` — 自动化 Benchmark Email
+- `benzinga-automation` — 自动化 Benzinga
+- `bitquery-automation` — 自动化 Bitquery
+- `blocknative-automation` — 自动化 Blocknative
+- `brex-automation` — 自动化 Brex
+- `brex-staging-automation` — 自动化 Brex Staging
+- `btcpay-server-automation` — 自动化 Btcpay Server
+- `coinbase-automation` — 自动化 Coinbase
+- `coinmarketcal-automation` — 自动化 Coinmarketcal
+- `coinmarketcap-automation` — 自动化 Coinmarketcap
+- `coinranking-automation` — 自动化 Coinranking
+- `coupa-automation` — 自动化 Coupa
+- `elorus-automation` — 自动化 Elorus
+- `eodhd-apis-automation` — 自动化 Eodhd Apis
+- `finage-automation` — 自动化 Finage
+- `finmei-automation` — 自动化 Finmei
+- `fixer-automation` — 自动化 Fixer
+- `fixer-io-automation` — 自动化 Fixer IO
+- `flutterwave-automation` — 自动化 Flutterwave
+- `fraudlabs-pro-automation` — 自动化 Fraudlabs Pro
+- `freshbooks-automation` — 自动化 Freshbooks(会计开票)
+- `helcim-automation` — 自动化 Helcim
+- `lexoffice-automation` — 自动化 Lexoffice
+- `mboum-automation` — 自动化 Mboum
+- `minerstat-automation` — 自动化 Minerstat
+- `moneybird-automation` — 自动化 Moneybird
+- `moonclerk-automation` — 自动化 Moonclerk
+- `nasdaq-automation` — 自动化 Nasdaq
+- `netsuite-automation` — 自动化 Netsuite(ERP/财务套件)
+- `open-sea-automation` — 自动化 Open Sea
+- `plisio-automation` — 自动化 Plisio
+- `polygon-automation` — 自动化 Polygon
+- `polygon-io-automation` — 自动化 Polygon IO
+- `quaderno-automation` — 自动化 Quaderno
+- `quickbooks-automation` — 自动化 Quickbooks(会计记账)
+- `ramp-automation` — 自动化 Ramp
+- `sage-automation` — 自动化 Sage(企业管理软件)
+- `sevdesk-automation` — 自动化 Sevdesk
+- `splitwise-automation` — 自动化 Splitwise
+- `spondyr-automation` — 自动化 Spondyr
+- `starton-automation` — 自动化 Starton
+- `taxjar-automation` — 自动化 Taxjar
+- `token-metrics-automation` — 自动化 Token Metrics
+- `twelve-data-automation` — 自动化 Twelve Data
+- `venly-automation` — 自动化 Venly
+- `wave-accounting-automation` — 自动化 Wave Accounting(免费记账)
+- `xero-automation` — 自动化 Xero(在线记账)
+- `ynab-automation` — 自动化 Ynab
+- `zoho-books-automation` — 自动化 Zoho Books(Zoho 记账)
+- `zoho-inventory-automation` — 自动化 Zoho Inventory(Zoho 库存)
+- `zoho-invoice-automation` — 自动化 Zoho Invoice(Zoho 开票)
+
+## 2. 客户关系与销售 · `crm-sales`(40)
+
+- `accelo-automation` — 自动化 Accelo
+- `aeroleads-automation` — 自动化 Aeroleads
+- `affinity-automation` — 自动化 Affinity
+- `apollo-automation` — 自动化 Apollo
+- `attio-automation` — 自动化 Attio(现代 CRM)
+- `autobound-automation` — 自动化 Autobound
+- `axonaut-automation` — 自动化 Axonaut
+- `breeze-automation` — 自动化 Breeze
+- `capsule-crm-automation` — 自动化 Capsule CRM(轻量 CRM)
+- `centralstationcrm-automation` — 自动化 Centralstationcrm
+- `dropcontact-automation` — 自动化 Dropcontact
+- `dynamics365-automation` — 自动化 Dynamics 365
+- `espocrm-automation` — 自动化 Espocrm
+- `fireberry-automation` — 自动化 Fireberry
+- `folk-automation` — 自动化 Folk
+- `forcemanager-automation` — 自动化 Forcemanager
+- `godial-automation` — 自动化 Godial
+- `gong-automation` — 自动化 Gong
+- `googleads-automation` — 自动化 Googleads
+- `helloleads-automation` — 自动化 Helloleads
+- `highlevel-automation` — 自动化 Highlevel(营销 CRM)
+- `jobnimbus-automation` — 自动化 Jobnimbus
+- `keap-automation` — 自动化 Keap
+- `kommo-automation` — 自动化 Kommo(销售消息 CRM)
+- `lead-research-assistant` — 处理 Lead Research Assistant
+- `leadfeeder-automation` — 自动化 Leadfeeder
+- `leadoku-automation` — 自动化 Leadoku
+- `moxie-automation` — 自动化 Moxie
+- `nocrm-io-automation` — 自动化 Nocrm IO
+- `peopledatalabs-automation` — 自动化 Peopledatalabs
+- `pipeline-crm-automation` — 自动化 Pipeline CRM(销售管道 CRM)
+- `salesmate-automation` — 自动化 Salesmate(销售 CRM)
+- `seismic-automation` — 自动化 Seismic
+- `sidetracker-automation` — 自动化 Sidetracker
+- `simla-com-automation` — 自动化 Simla Com
+- `zoho-automation` — 自动化 Zoho
+- `zoho-bigin-automation` — 自动化 Zoho Bigin(Zoho 轻 CRM)
+- `zoho-desk-automation` — 自动化 Zoho Desk
+- `zoho-mail-automation` — 自动化 Zoho Mail
+- `zoominfo-automation` — 自动化 Zoominfo
+
+## 3. 营销与邮件 · `marketing-email`(85)
+
+- `active-campaign-automation` — 自动化 Active Campaign(邮件自动化营销)
+- `basin-automation` — 自动化 Basin
+- `beamer-automation` — 自动化 Beamer
+- `boloforms-automation` — 自动化 Boloforms
+- `bouncer-automation` — 自动化 Bouncer
+- `buildkite-automation` — 自动化 Buildkite
+- `byteforms-automation` — 自动化 Byteforms
+- `campaign-cleaner-automation` — 自动化 Campaign Cleaner
+- `campayn-automation` — 自动化 Campayn
+- `cdr-platform-automation` — 自动化 Cdr Platform
+- `chaser-automation` — 自动化 Chaser
+- `chatbotkit-automation` — 自动化 Chatbotkit
+- `clearout-automation` — 自动化 Clearout
+- `customerio-automation` — 自动化 Customer.Io
+- `doppler-marketing-automation-automation` — 自动化 Doppler Marketing Automation
+- `drip-jobs-automation` — 自动化 Drip Jobs
+- `dripcel-automation` — 自动化 Dripcel
+- `emailable-automation` — 自动化 Emailable
+- `emaillistverify-automation` — 自动化 Emaillistverify
+- `emailoctopus-automation` — 自动化 Emailoctopus
+- `emelia-automation` — 自动化 Emelia
+- `endorsal-automation` — 自动化 Endorsal
+- `enginemailer-automation` — 自动化 Enginemailer
+- `esputnik-automation` — 自动化 Esputnik
+- `feathery-automation` — 自动化 Feathery
+- `fillout-forms-automation` — 自动化 Fillout Forms
+- `findymail-automation` — 自动化 Findymail
+- `fomo-automation` — 自动化 Fomo
+- `formbricks-automation` — 自动化 Formbricks
+- `formcarry-automation` — 自动化 Formcarry
+- `formdesk-automation` — 自动化 Formdesk
+- `formsite-automation` — 自动化 Formsite
+- `fullenrich-automation` — 自动化 Fullenrich
+- `gagelist-automation` — 自动化 Gagelist
+- `getform-automation` — 自动化 Getform
+- `goodbits-automation` — 自动化 Goodbits
+- `goody-automation` — 自动化 Goody
+- `hotspotsystem-automation` — 自动化 Hotspotsystem
+- `hunter-automation` — 自动化 Hunter
+- `hyperise-automation` — 自动化 Hyperise
+- `imagekit-io-automation` — 自动化 Imagekit IO
+- `instantly-automation` — 自动化 Instantly
+- `jotform-automation` — 自动化 Jotform
+- `kit-automation` — 自动化 Kit
+- `lemlist-automation` — 自动化 Lemlist
+- `listclean-automation` — 自动化 Listclean
+- `mailbluster-automation` — 自动化 Mailbluster
+- `mailboxlayer-automation` — 自动化 Mailboxlayer
+- `mailcheck-automation` — 自动化 Mailcheck
+- `mailcoach-automation` — 自动化 Mailcoach
+- `mailerlite-automation` — 自动化 Mailerlite(邮件营销)
+- `mailersend-automation` — 自动化 Mailersend
+- `mails-so-automation` — 自动化 Mails So
+- `mailsoftly-automation` — 自动化 Mailsoftly
+- `moosend-automation` — 自动化 Moosend
+- `neverbounce-automation` — 自动化 Neverbounce
+- `omnisend-automation` — 自动化 Omnisend
+- `persistiq-automation` — 自动化 Persistiq
+- `poptin-automation` — 自动化 Poptin
+- `proofly-automation` — 自动化 Proofly
+- `realphonevalidation-automation` — 自动化 Realphonevalidation
+- `remarkety-automation` — 自动化 Remarkety
+- `reply-automation` — 自动化 Reply
+- `reply-io-automation` — 自动化 Reply IO
+- `ritekit-automation` — 自动化 Ritekit
+- `salesforce-marketing-cloud-automation` — 自动化 Salesforce Marketing Cloud
+- `segmetrics-automation` — 自动化 Segmetrics
+- `sendfox-automation` — 自动化 Sendfox
+- `sendlane-automation` — 自动化 Sendlane
+- `sendloop-automation` — 自动化 Sendloop
+- `sendspark-automation` — 自动化 Sendspark
+- `spoki-automation` — 自动化 Spoki
+- `stannp-automation` — 自动化 Stannp
+- `tally-automation` — 自动化 Tally
+- `tapfiliate-automation` — 自动化 Tapfiliate
+- `tapform-automation` — 自动化 Tapform
+- `timekit-automation` — 自动化 Timekit
+- `tomba-automation` — 自动化 Tomba
+- `typefully-automation` — 自动化 Typefully
+- `unione-automation` — 自动化 Unione
+- `userlist-automation` — 自动化 Userlist
+- `verifiedemail-automation` — 自动化 Verifiedemail
+- `vero-automation` — 自动化 Vero
+- `woodpecker-co-automation` — 自动化 Woodpecker Co
+- `zerobounce-automation` — 自动化 Zerobounce
+
+## 4. SEO 与分析 · `seo-analytics`(16)
+
+- `adrapid-automation` — 自动化 Adrapid
+- `ahrefs-automation` — 自动化 Ahrefs
+- `builtwith-automation` — 自动化 Builtwith
+- `competitive-ads-extractor` — 处理 Competitive Ads Extractor
+- `google-search-console-automation` — 自动化 Google Search Console
+- `metaads-automation` — 自动化 Metaads
+- `microsoft-clarity-automation` — 自动化 Microsoft Clarity
+- `moz-automation` — 自动化 Moz
+- `neuronwriter-automation` — 自动化 Neuronwriter
+- `ravenseotools-automation` — 自动化 Ravenseotools
+- `semrush-automation` — 自动化 Semrush
+- `serpapi-automation` — 自动化 Serpapi
+- `serpdog-automation` — 自动化 Serpdog
+- `serply-automation` — 自动化 Serply
+- `similarweb-digitalrank-api-automation` — 自动化 Similarweb Digitalrank API
+- `zenserp-automation` — 自动化 Zenserp
+
+## 5. 社交媒体 · `social-media`(9)
+
+- `ayrshare-automation` — 自动化 Ayrshare
+- `facebook-automation` — 自动化 Facebook
+- `giphy-automation` — 自动化 Giphy
+- `hypeauditor-automation` — 自动化 Hypeauditor
+- `phantombuster-automation` — 自动化 Phantombuster
+- `slack-gif-creator` — 处理 Slack Gif Creator
+- `twitch-automation` — 自动化 Twitch
+- `twitter-algorithm-optimizer` — 处理 Twitter Algorithm Optimizer
+- `video-downloader` — 处理 Youtube Downloader
+
+## 6. 沟通与协作 · `communication-collab`(44)
+
+- `ably-automation` — 自动化 Ably
+- `agencyzoom-automation` — 自动化 Agencyzoom
+- `agent-mail-automation` — 自动化 Agent Mail
+- `bigmailer-automation` — 自动化 Bigmailer
+- `callerapi-automation` — 自动化 Callerapi
+- `callingly-automation` — 自动化 Callingly
+- `callpage-automation` — 自动化 Callpage
+- `chatwork-automation` — 自动化 Chatwork
+- `chmeetings-automation` — 自动化 Chmeetings
+- `clickmeeting-automation` — 自动化 Clickmeeting
+- `dailybot-automation` — 自动化 Dailybot
+- `demio-automation` — 自动化 Demio
+- `dialmycalls-automation` — 自动化 Dialmycalls
+- `dialpad-automation` — 自动化 Dialpad
+- `discordbot-automation` — 自动化 Discordbot
+- `go-to-webinar-automation` — 自动化 Go To Webinar
+- `googlemeet-automation` — 自动化 Googlemeet
+- `hookdeck-automation` — 自动化 Hookdeck
+- `internal-comms` — 处理 Internal Comms
+- `livesession-automation` — 自动化 Livesession
+- `many-chat-automation` — 自动化 Many Chat
+- `meeting-insights-analyzer` — 处理 Meeting Insights Analyzer
+- `missive-automation` — 自动化 Missive
+- `mocean-automation` — 自动化 Mocean
+- `msg91-automation` — 自动化 Msg91
+- `pushbullet-automation` — 自动化 Pushbullet
+- `pushover-automation` — 自动化 Pushover
+- `recallai-automation` — 自动化 Recallai
+- `resend-automation` — 自动化 Resend(开发邮件发送)
+- `revolt-automation` — 自动化 Revolt
+- `ring-central-automation` — 自动化 Ringcentral
+- `ring_central-automation` — 自动化 Ring Central
+- `sendbird-ai-chabot-automation` — 自动化 Sendbird AI Chabot
+- `sendbird-automation` — 自动化 Sendbird
+- `slackbot-automation` — 自动化 Slackbot
+- `sms-alert-automation` — 自动化 Sms Alert
+- `smtp2go-automation` — 自动化 Smtp2Go
+- `svix-automation` — 自动化 Svix
+- `telnyx-automation` — 自动化 Telnyx
+- `textit-automation` — 自动化 Textit
+- `veriphone-automation` — 自动化 Veriphone
+- `vestaboard-automation` — 自动化 Vestaboard
+- `waboxapp-automation` — 自动化 Waboxapp
+- `webex-automation` — 自动化 Webex(视频会议)
+
+## 7. 项目管理与工时 · `project-management`(38)
+
+- `agiled-automation` — 自动化 Agiled
+- `appointo-automation` — 自动化 Appointo
+- `beeminder-automation` — 自动化 Beeminder
+- `bigpicture-io-automation` — 自动化 Bigpicture IO
+- `cal-automation` — 自动化 Cal
+- `calendarhero-automation` — 自动化 Calendarhero
+- `clockify-automation` — 自动化 Clockify
+- `deadline-funnel-automation` — 自动化 Deadline Funnel
+- `desktime-automation` — 自动化 Desktime
+- `everhour-automation` — 自动化 Everhour
+- `fibery-automation` — 自动化 Fibery
+- `fireflies-automation` — 自动化 Fireflies
+- `gist-automation` — 自动化 Gist
+- `googlecalendar-automation` — 自动化 Googlecalendar
+- `googletasks-automation` — 自动化 Googletasks
+- `habitica-automation` — 自动化 Habitica
+- `harvest-automation` — 自动化 Harvest
+- `leiga-automation` — 自动化 Leiga
+- `loomio-automation` — 自动化 Loomio
+- `maintainx-automation` — 自动化 Maintainx
+- `moco-automation` — 自动化 Moco
+- `mural-automation` — 自动化 Mural
+- `oncehub-automation` — 自动化 Oncehub
+- `process-street-automation` — 自动化 Process Street
+- `productboard-automation` — 自动化 Productboard
+- `productlane-automation` — 自动化 Productlane
+- `project-bubble-automation` — 自动化 Project Bubble
+- `shortcut-automation` — 自动化 Shortcut
+- `streamtime-automation` — 自动化 Streamtime
+- `survey-monkey-automation` — 自动化 Surveymonkey
+- `survey_monkey-automation` — 自动化 Survey Monkey
+- `teamcamp-automation` — 自动化 Teamcamp
+- `ticktick-automation` — 自动化 Ticktick
+- `timecamp-automation` — 自动化 Timecamp
+- `timelink-automation` — 自动化 Timelink
+- `timely-automation` — 自动化 Timely
+- `toggl-automation` — 自动化 Toggl
+- `workiom-automation` — 自动化 Workiom
+
+## 8. 人力资源与招聘 · `hr-recruiting`(20)
+
+- `ashby-automation` — 自动化 Ashby(招聘 ATS)
+- `async-interview-automation` — 自动化 Async Interview
+- `breezy-hr-automation` — 自动化 Breezy HR(招聘 ATS)
+- `cats-automation` — 自动化 Cats
+- `connecteam-automation` — 自动化 Connecteam
+- `deel-automation` — 自动化 Deel
+- `factorial-automation` — 自动化 Factorial
+- `icims-talent-cloud-automation` — 自动化 Icims Talent Cloud
+- `lever-automation` — 自动化 Lever(招聘 ATS)
+- `lever-sandbox-automation` — 自动化 Lever Sandbox
+- `leverly-automation` — 自动化 Leverly
+- `recruitee-automation` — 自动化 Recruitee
+- `rippling-automation` — 自动化 Rippling
+- `sap-successfactors-automation` — 自动化 Sap Successfactors
+- `smartrecruiters-automation` — 自动化 Smartrecruiters
+- `tailored-resume-generator` — 处理 Tailored Resume Generator
+- `talenthr-automation` — 自动化 Talenthr
+- `workable-automation` — 自动化 Workable
+- `workday-automation` — 自动化 Workday(HR/财务套件)
+- `worksnaps-automation` — 自动化 Worksnaps
+
+## 9. 客服与工单 · `support-helpdesk`(30)
+
+- `botbaba-automation` — 自动化 Botbaba
+- `botpress-automation` — 自动化 Botpress
+- `botsonic-automation` — 自动化 Botsonic
+- `botstar-automation` — 自动化 Botstar
+- `canny-automation` — 自动化 Canny
+- `chatfai-automation` — 自动化 Chatfai
+- `customgpt-automation` — 自动化 Customgpt
+- `docsbot-ai-automation` — 自动化 Docsbot AI
+- `front-automation` — 自动化 Front
+- `gatherup-automation` — 自动化 Gatherup
+- `gleap-automation` — 自动化 Gleap
+- `gorgias-automation` — 自动化 Gorgias(电商客服)
+- `helpwise-automation` — 自动化 Helpwise
+- `landbot-automation` — 自动化 Landbot
+- `mopinion-automation` — 自动化 Mopinion
+- `plain-automation` — 自动化 Plain
+- `qualaroo-automation` — 自动化 Qualaroo
+- `re-amaze-automation` — 自动化 Re Amaze
+- `refiner-automation` — 自动化 Refiner
+- `respond-io-automation` — 自动化 Respond IO
+- `retently-automation` — 自动化 Retently
+- `salesforce-service-cloud-automation` — 自动化 Salesforce Service Cloud
+- `satismeter-automation` — 自动化 Satismeter
+- `simplesat-automation` — 自动化 Simplesat
+- `superchat-automation` — 自动化 Superchat
+- `supportbee-automation` — 自动化 Supportbee
+- `supportivekoala-automation` — 自动化 Supportivekoala
+- `thanks-io-automation` — 自动化 Thanks IO
+- `ticketmaster-automation` — 自动化 Ticketmaster(票务平台)
+- `wati-automation` — 自动化 Wati
+
+## 10. 开发与工具 · `dev-tools`(193)
+
+- `abstract-automation` — 自动化 Abstract
+- `agentql-automation` — 自动化 Agentql
+- `agenty-automation` — 自动化 Agenty
+- `agility-cms-automation` — 自动化 Agility CMS
+- `algolia-automation` — 自动化 Algolia
+- `anchor-browser-automation` — 自动化 Anchor Browser
+- `apex27-automation` — 自动化 Apex27
+- `api-bible-automation` — 自动化 API Bible
+- `api-labz-automation` — 自动化 API Labz
+- `api-ninjas-automation` — 自动化 API Ninjas
+- `apify-automation` — 自动化 Apify
+- `apilio-automation` — 自动化 Apilio
+- `apipie-ai-automation` — 自动化 Apipie AI
+- `apitemplate-io-automation` — 自动化 Apitemplate IO
+- `apiverve-automation` — 自动化 Apiverve
+- `appcircle-automation` — 自动化 Appcircle
+- `appdrag-automation` — 自动化 Appdrag
+- `appveyor-automation` — 自动化 Appveyor
+- `atlassian-automation` — 自动化 Atlassian
+- `auth0-automation` — 自动化 Auth0
+- `backendless-automation` — 自动化 Backendless
+- `bannerbear-automation` — 自动化 Bannerbear
+- `better-stack-automation` — 自动化 Better Stack
+- `big-data-cloud-automation` — 自动化 Big Data Cloud
+- `bitwarden-automation` — 自动化 Bitwarden
+- `bolt-iot-automation` — 自动化 Bolt Iot
+- `brightdata-automation` — 自动化 Brightdata
+- `browseai-automation` — 自动化 Browseai
+- `browser-tool-automation` — 自动化 Browser Tool
+- `browserbase-tool-automation` — 自动化 Browserbase Tool
+- `browserhub-automation` — 自动化 Browserhub
+- `browserless-automation` — 自动化 Browserless
+- `bubble-automation` — 自动化 Bubble
+- `bugbug-automation` — 自动化 Bugbug
+- `bugherd-automation` — 自动化 Bugherd
+- `bugsnag-automation` — 自动化 Bugsnag
+- `changelog-generator` — 处理 Changelog Generator
+- `cloudcart-automation` — 自动化 Cloudcart
+- `cloudconvert-automation` — 自动化 Cloudconvert
+- `cloudflare-api-key-automation` — 自动化 Cloudflare API Key
+- `cloudflare-automation` — 自动化 Cloudflare
+- `cloudflare-browser-rendering-automation` — 自动化 Cloudflare Browser Rendering
+- `cloudinary-automation` — 自动化 Cloudinary
+- `cloudlayer-automation` — 自动化 Cloudlayer
+- `cloudpress-automation` — 自动化 Cloudpress
+- `codacy-automation` — 自动化 Codacy
+- `codeinterpreter-automation` — 自动化 Codeinterpreter
+- `codereadr-automation` — 自动化 Codereadr
+- `composio-automation` — 自动化 Composio
+- `composio-search-automation` — 自动化 Composio Search
+- `contentful-automation` — 自动化 Contentful
+- `contentful-graphql-automation` — 自动化 Contentful Graphql
+- `control-d-automation` — 自动化 Control D
+- `conversion-tools-automation` — 自动化 Conversion Tools
+- `conveyor-automation` — 自动化 Conveyor
+- `countdown-api-automation` — 自动化 Countdown API
+- `crowdin-automation` — 自动化 Crowdin
+- `currents-api-automation` — 自动化 Currents API
+- `customjs-automation` — 自动化 Customjs
+- `cutt-ly-automation` — 自动化 Cutt Ly
+- `developer-growth-analysis` — 处理 Developer Growth Analysis
+- `dictionary-api-automation` — 自动化 Dictionary API
+- `diffbot-automation` — 自动化 Diffbot
+- `digicert-automation` — 自动化 Digicert
+- `digital-ocean-automation` — 自动化 Digital Ocean
+- `dnsfilter-automation` — 自动化 Dnsfilter
+- `docker-hub-automation` — 自动化 Docker Hub
+- `domain-name-brainstormer` — 处理 Domain Name Brainstormer
+- `doppler-secretops-automation` — 自动化 Doppler Secretops
+- `exa-automation` — 自动化 Exa
+- `fidel-api-automation` — 自动化 Fidel API
+- `firecrawl-automation` — 自动化 Firecrawl
+- `fluxguard-automation` — 自动化 Fluxguard
+- `gender-api-automation` — 自动化 Gender API
+- `genderapi-io-automation` — 自动化 Genderapi IO
+- `geoapify-automation` — 自动化 Geoapify
+- `geocodio-automation` — 自动化 Geocodio
+- `geokeo-automation` — 自动化 Geokeo
+- `globalping-automation` — 自动化 Globalping
+- `google-address-validation-automation` — 自动化 Google Address Validation
+- `google-admin-automation` — 自动化 Google Admin
+- `google-cloud-vision-automation` — 自动化 Google Cloud Vision
+- `google-maps-automation` — 自动化 Google Maps
+- `grafbase-automation` — 自动化 Grafbase
+- `graphhopper-automation` — 自动化 Graphhopper
+- `groqcloud-automation` — 自动化 Groqcloud
+- `hackernews-automation` — 自动化 Hackernews
+- `hashnode-automation` — 自动化 Hashnode
+- `here-automation` — 自动化 Here
+- `heyreach-automation` — 自动化 Heyreach
+- `honeybadger-automation` — 自动化 Honeybadger
+- `honeyhive-automation` — 自动化 Honeyhive
+- `html-to-image-automation` — 自动化 HTML To Image
+- `hyperbrowser-automation` — 自动化 Hyperbrowser
+- `identitycheck-automation` — 自动化 Identitycheck
+- `influxdb-cloud-automation` — 自动化 Influxdb Cloud
+- `ip2location-automation` — 自动化 Ip2Location
+- `ip2location-io-automation` — 自动化 Ip2Location IO
+- `ip2proxy-automation` — 自动化 Ip2Proxy
+- `ip2whois-automation` — 自动化 Ip2Whois
+- `ipdata-co-automation` — 自动化 Ipdata Co
+- `ipinfo-io-automation` — 自动化 Ipinfo IO
+- `jigsawstack-automation` — 自动化 Jigsawstack
+- `jumpcloud-automation` — 自动化 Jumpcloud
+- `kontent-ai-automation` — 自动化 Kontent AI
+- `lastpass-automation` — 自动化 Lastpass
+- `launch-darkly-automation` — 自动化 Launchdarkly
+- `launch_darkly-automation` — 自动化 Launch Darkly
+- `linkhut-automation` — 自动化 Linkhut
+- `linkup-automation` — 自动化 Linkup
+- `mapbox-automation` — 自动化 Mapbox
+- `mapulus-automation` — 自动化 Mapulus
+- `mcp-builder` — 处理 Mcp Builder
+- `memberstack-automation` — 自动化 Memberstack
+- `metaphor-automation` — 自动化 Metaphor
+- `mezmo-automation` — 自动化 Mezmo
+- `microsoft-tenant-automation` — 自动化 Microsoft Tenant
+- `mx-toolbox-automation` — 自动化 Mx Toolbox
+- `nango-automation` — 自动化 Nango
+- `nano-nets-automation` — 自动化 Nano Nets
+- `neon-automation` — 自动化 Neon
+- `neutrino-automation` — 自动化 Neutrino
+- `new-relic-automation` — 自动化 New Relic
+- `news-api-automation` — 自动化 News API
+- `nextdns-automation` — 自动化 Nextdns
+- `ngrok-automation` — 自动化 Ngrok
+- `npm-automation` — 自动化 Npm
+- `onesignal-rest-api-automation` — 自动化 Onesignal Rest API
+- `onesignal-user-auth-automation` — 自动化 Onesignal User Auth
+- `opencage-automation` — 自动化 Opencage
+- `opengraph-io-automation` — 自动化 Opengraph IO
+- `openperplex-automation` — 自动化 Openperplex
+- `parma-automation` — 自动化 Parma
+- `parsehub-automation` — 自动化 Parsehub
+- `passcreator-automation` — 自动化 Passcreator
+- `passslot-automation` — 自动化 Passslot
+- `piloterr-automation` — 自动化 Piloterr
+- `pingdom-automation` — 自动化 Pingdom
+- `placekey-automation` — 自动化 Placekey
+- `plasmic-automation` — 自动化 Plasmic
+- `prerender-automation` — 自动化 Prerender
+- `prisma-automation` — 自动化 Prisma
+- `prismic-automation` — 自动化 Prismic
+- `proxiedmail-automation` — 自动化 Proxiedmail
+- `radar-automation` — 自动化 Radar
+- `remote-retrieval-automation` — 自动化 Remote Retrieval
+- `renderform-automation` — 自动化 Renderform
+- `rocketlane-automation` — 自动化 Rocketlane
+- `rootly-automation` — 自动化 Rootly
+- `scrape-do-automation` — 自动化 Scrape Do
+- `scrapegraph-ai-automation` — 自动化 Scrapegraph AI
+- `scrapfly-automation` — 自动化 Scrapfly
+- `scrapingant-automation` — 自动化 Scrapingant
+- `scrapingbee-automation` — 自动化 Scrapingbee
+- `screenshot-fyi-automation` — 自动化 Screenshot Fyi
+- `screenshotone-automation` — 自动化 Screenshotone
+- `securitytrails-automation` — 自动化 Securitytrails
+- `sensibo-automation` — 自动化 Sensibo
+- `seqera-automation` — 自动化 Seqera
+- `short-io-automation` — 自动化 Short IO
+- `shorten-rest-automation` — 自动化 Shorten Rest
+- `skill-creator` — 处理 Skill Creator
+- `skill-share` — 处理 Skill Share
+- `smartproxy-automation` — 自动化 Smartproxy
+- `sourcegraph-automation` — 自动化 Sourcegraph
+- `sslmate-cert-spotter-api-automation` — 自动化 Sslmate Cert Spotter API
+- `stack-exchange-automation` — 自动化 Stack Exchange
+- `statuscake-automation` — 自动化 Statuscake
+- `supadata-automation` — 自动化 Supadata
+- `tavily-automation` — 自动化 Tavily
+- `template-skill` — 处理 Template Skill
+- `test-app-automation` — 自动化 Test App
+- `theme-factory` — 处理 Theme Factory
+- `tinyurl-automation` — 自动化 Tinyurl
+- `tomtom-automation` — 自动化 Tomtom
+- `triggercmd-automation` — 自动化 Triggercmd
+- `turso-automation` — 自动化 Turso
+- `twocaptcha-automation` — 自动化 Twocaptcha
+- `updown-io-automation` — 自动化 Updown IO
+- `uptimerobot-automation` — 自动化 Uptimerobot
+- `virustotal-automation` — 自动化 Virustotal
+- `wachete-automation` — 自动化 Wachete
+- `wakatime-automation` — 自动化 Wakatime
+- `webapp-testing` — 处理 Webapp Testing
+- `webscraping-ai-automation` — 自动化 Webscraping AI
+- `webvizio-automation` — 自动化 Webvizio
+- `wiz-automation` — 自动化 Wiz
+- `wolfram-alpha-api-automation` — 自动化 Wolfram Alpha API
+- `yandex-automation` — 自动化 Yandex
+- `yousearch-automation` — 自动化 Yousearch
+- `zenrows-automation` — 自动化 Zenrows
+- `zeplin-automation` — 自动化 Zeplin
+- `zyte-api-automation` — 自动化 Zyte API
+
+## 11. 数据与数据库 · `data-databases`(47)
+
+- `ambee-automation` — 自动化 Ambee
+- `ambient-weather-automation` — 自动化 Ambient Weather
+- `appsflyer-automation` — 自动化 Appsflyer
+- `aryn-automation` — 自动化 Aryn
+- `asin-data-api-automation` — 自动化 Asin Data API
+- `baserow-automation` — 自动化 Baserow
+- `bigml-automation` — 自动化 Bigml
+- `census-bureau-automation` — 自动化 Census Bureau
+- `corrently-automation` — 自动化 Corrently
+- `crustdata-automation` — 自动化 Crustdata
+- `dadata-ru-automation` — 自动化 Dadata Ru
+- `datagma-automation` — 自动化 Datagma
+- `datarobot-automation` — 自动化 Datarobot
+- `dromo-automation` — 自动化 Dromo
+- `enigma-automation` — 自动化 Enigma
+- `felt-automation` — 自动化 Felt
+- `genderize-automation` — 自动化 Genderize
+- `gigasheet-automation` — 自动化 Gigasheet
+- `googlebigquery-automation` — 自动化 Googlebigquery
+- `gosquared-automation` — 自动化 Gosquared
+- `grist-automation` — 自动化 Grist
+- `interzoid-automation` — 自动化 Interzoid
+- `iqair-airvisual-automation` — 自动化 Iqair Airvisual
+- `kadoa-automation` — 自动化 Kadoa
+- `kaggle-automation` — 自动化 Kaggle
+- `keen-io-automation` — 自动化 Keen IO
+- `klipfolio-automation` — 自动化 Klipfolio
+- `labs64-netlicensing-automation` — 自动化 Labs64 Netlicensing
+- `magnetic-automation` — 自动化 Magnetic
+- `nasa-automation` — 自动化 Nasa
+- `ninox-automation` — 自动化 Ninox
+- `openweather-api-automation` — 自动化 Openweather API
+- `parsera-automation` — 自动化 Parsera
+- `perigon-automation` — 自动化 Perigon
+- `platerecognizer-automation` — 自动化 Platerecognizer
+- `rosette-text-analytics-automation` — 自动化 Rosette Text Analytics
+- `semanticscholar-automation` — 自动化 Semanticscholar
+- `simple-analytics-automation` — 自动化 Simple Analytics
+- `snowflake-automation` — 自动化 Snowflake(云数仓)
+- `stormglass-io-automation` — 自动化 Stormglass IO
+- `taggun-automation` — 自动化 Taggun
+- `teltel-automation` — 自动化 Teltel
+- `textrazor-automation` — 自动化 Textrazor
+- `tisane-automation` — 自动化 Tisane
+- `turbot-pipes-automation` — 自动化 Turbot Pipes
+- `typless-automation` — 自动化 Typless
+- `weathermap-automation` — 自动化 Weathermap
+
+## 12. AI / 机器学习与媒体 · `ai-ml-media`(74)
+
+- `abyssale-automation` — 自动化 Abyssale
+- `ai-ml-api-automation` — 自动化 AI ML API
+- `aivoov-automation` — 自动化 Aivoov
+- `all-images-ai-automation` — 自动化 All Images AI
+- `alttext-ai-automation` — 自动化 Alttext AI
+- `anthropic-administrator-automation` — 自动化 Anthropic Administrator
+- `artifacts-builder` — 处理 Artifacts Builder
+- `astica-ai-automation` — 自动化 Astica AI
+- `bolna-automation` — 自动化 Bolna
+- `bunnycdn-automation` — 自动化 Bunnycdn
+- `canvas-automation` — 自动化 Canvas
+- `canvas-design` — 处理 Canvas Design(视觉设计)
+- `cardly-automation` — 自动化 Cardly
+- `castingwords-automation` — 自动化 Castingwords
+- `cincopa-automation` — 自动化 Cincopa
+- `claid-ai-automation` — 自动化 Claid AI
+- `content-research-writer` — 处理 Content Research Writer
+- `convolo-ai-automation` — 自动化 Convolo AI
+- `deepgram-automation` — 自动化 Deepgram(语音转录)
+- `dreamstudio-automation` — 自动化 Dreamstudio
+- `elevenlabs-automation` — 自动化 Elevenlabs(AI 语音合成)
+- `entelligence-automation` — 自动化 Entelligence
+- `flexisign-automation` — 自动化 Flexisign
+- `flowiseai-automation` — 自动化 Flowiseai
+- `gamma-automation` — 自动化 Gamma
+- `gan-ai-automation` — 自动化 Gan AI
+- `gemini-automation` — 自动化 Gemini(谷歌 Gemini)
+- `gladia-automation` — 自动化 Gladia
+- `googlephotos-automation` — 自动化 Googlephotos
+- `griptape-automation` — 自动化 Griptape
+- `happy-scribe-automation` — 自动化 Happy Scribe
+- `heygen-automation` — 自动化 Heygen(AI 数字人视频)
+- `humanloop-automation` — 自动化 Humanloop
+- `image-enhancer` — 处理 Image Enhancer
+- `imgbb-automation` — 自动化 Imgbb
+- `imgix-automation` — 自动化 Imgix
+- `insighto-ai-automation` — 自动化 Insighto AI
+- `langbase-automation` — 自动化 Langbase
+- `langsmith-fetch` — 处理 Langsmith Fetch
+- `listennotes-automation` — 自动化 Listennotes
+- `lmnt-automation` — 自动化 Lmnt
+- `logo-dev-automation` — 自动化 Logo Dev
+- `melo-automation` — 自动化 Melo
+- `mem-automation` — 自动化 Mem
+- `mem0-automation` — 自动化 Mem0
+- `memberspot-automation` — 自动化 Memberspot
+- `membervault-automation` — 自动化 Membervault
+- `mistral-ai-automation` — 自动化 Mistral AI
+- `openai-automation` — 自动化 Openai(OpenAI 大模型)
+- `openrouter-automation` — 自动化 Openrouter
+- `perplexityai-automation` — 自动化 Perplexityai
+- `pexels-automation` — 自动化 Pexels
+- `placid-automation` — 自动化 Placid
+- `ragic-automation` — 自动化 Ragic
+- `remove-bg-automation` — 自动化 Remove Bg
+- `replicate-automation` — 自动化 Replicate
+- `retellai-automation` — 自动化 Retellai
+- `rev-ai-automation` — 自动化 Rev AI
+- `shortpixel-automation` — 自动化 Shortpixel
+- `shotstack-automation` — 自动化 Shotstack
+- `sitespeakai-automation` — 自动化 Sitespeakai
+- `smugmug-automation` — 自动化 Smugmug
+- `spotify-automation` — 自动化 Spotify
+- `spotlightr-automation` — 自动化 Spotlightr
+- `synthflow-ai-automation` — 自动化 Synthflow AI
+- `textcortex-automation` — 自动化 Textcortex
+- `timelinesai-automation` — 自动化 Timelinesai
+- `toneden-automation` — 自动化 Toneden
+- `uploadcare-automation` — 自动化 Uploadcare
+- `v0-automation` — 自动化 V0
+- `veo-automation` — 自动化 Veo
+- `winston-ai-automation` — 自动化 Winston AI
+- `wit-ai-automation` — 自动化 Wit AI
+- `writer-automation` — 自动化 Writer
+
+## 13. 文档与文件 · `documents-files`(69)
+
+- `accredible-certificates-automation` — 自动化 Accredible Certificates
+- `adobe-automation` — 自动化 Adobe
+- `affinda-automation` — 自动化 Affinda
+- `algodocs-automation` — 自动化 Algodocs
+- `amara-automation` — 自动化 Amara
+- `api2pdf-automation` — 自动化 Api2Pdf
+- `apiflash-automation` — 自动化 Apiflash
+- `bidsketch-automation` — 自动化 Bidsketch
+- `boldsign-automation` — 自动化 Boldsign
+- `boxhero-automation` — 自动化 Boxhero
+- `brand-guidelines` — 处理 Brand Guidelines
+- `brandfetch-automation` — 自动化 Brandfetch
+- `carbone-automation` — 自动化 Carbone
+- `certifier-automation` — 自动化 Certifier
+- `convertapi-automation` — 自动化 Convertapi
+- `craftmypdf-automation` — 自动化 Craftmypdf
+- `dock-certs-automation` — 自动化 Dock Certs
+- `docmosis-automation` — 自动化 Docmosis
+- `docnify-automation` — 自动化 Docnify
+- `docsumo-automation` — 自动化 Docsumo
+- `docugenerate-automation` — 自动化 Docugenerate
+- `documenso-automation` — 自动化 Documenso
+- `documint-automation` — 自动化 Documint
+- `docupilot-automation` — 自动化 Docupilot
+- `docupost-automation` — 自动化 Docupost
+- `docuseal-automation` — 自动化 Docuseal
+- `docx` — 处理 Docx(Word 文档)
+- `draftable-automation` — 自动化 Draftable
+- `dropbox-sign-automation` — 自动化 Dropbox Sign
+- `encodian-automation` — 自动化 Encodian
+- `esignatures-io-automation` — 自动化 Esignatures IO
+- `etermin-automation` — 自动化 Etermin
+- `eversign-automation` — 自动化 Eversign
+- `excel-automation` — 自动化 Excel
+- `extracta-ai-automation` — 自动化 Extracta AI
+- `file-organizer` — 处理 File Organizer
+- `files-com-automation` — 自动化 Files Com
+- `firmao-automation` — 自动化 Firmao
+- `googledocs-automation` — 自动化 Googledocs
+- `googledrive-automation` — 自动化 Googledrive
+- `googleslides-automation` — 自动化 Googleslides
+- `heyzine-automation` — 自动化 Heyzine
+- `ignisign-automation` — 自动化 Ignisign
+- `intelliprint-automation` — 自动化 Intelliprint
+- `invoice-organizer` — 处理 Invoice Organizer
+- `kaleido-automation` — 自动化 Kaleido
+- `kickbox-automation` — 自动化 Kickbox
+- `ocr-web-service-automation` — 自动化 Ocr Web Service
+- `ocrspace-automation` — 自动化 Ocrspace
+- `pandadoc-automation` — 自动化 Pandadoc
+- `parseur-automation` — 自动化 Parseur
+- `pdf` — 处理 PDF(PDF 文档)
+- `pdf-api-io-automation` — 自动化 PDF API IO
+- `pdf-co-automation` — 自动化 PDF Co
+- `pdf4me-automation` — 自动化 Pdf4Me
+- `pdfless-automation` — 自动化 Pdfless
+- `pdfmonkey-automation` — 自动化 Pdfmonkey
+- `pptx` — 处理 Pptx(PPT 演示)
+- `printautopilot-automation` — 自动化 Printautopilot
+- `share-point-automation` — 自动化 Sharepoint
+- `share_point-automation` — 自动化 Share Point
+- `signaturely-automation` — 自动化 Signaturely
+- `signpath-automation` — 自动化 Signpath
+- `signwell-automation` — 自动化 Signwell
+- `templated-automation` — 自动化 Templated
+- `text-to-pdf-automation` — 自动化 Text To PDF
+- `visme-automation` — 自动化 Visme
+- `waiverfile-automation` — 自动化 Waiverfile
+- `xlsx` — 处理 Xlsx(Excel 表格)
+
+## 14. 电商与零售 · `ecommerce-retail`(33)
+
+- `amazon-automation` — 自动化 Amazon(亚马逊电商)
+- `amcards-automation` — 自动化 Amcards
+- `baselinker-automation` — 自动化 Baselinker
+- `beaconstac-automation` — 自动化 Beaconstac
+- `bestbuy-automation` — 自动化 Bestbuy
+- `better-proposals-automation` — 自动化 Better Proposals
+- `blackbaud-automation` — 自动化 Blackbaud
+- `braintree-automation` — 自动化 Braintree
+- `brightpearl-automation` — 自动化 Brightpearl
+- `cults-automation` — 自动化 Cults
+- `daffy-automation` — 自动化 Daffy
+- `dpd2-automation` — 自动化 Dpd2
+- `echtpost-automation` — 自动化 Echtpost
+- `foursquare-automation` — 自动化 Foursquare
+- `gift-up-automation` — 自动化 Gift Up
+- `givebutter-automation` — 自动化 Givebutter
+- `gumroad-automation` — 自动化 Gumroad
+- `instacart-automation` — 自动化 Instacart
+- `junglescout-automation` — 自动化 Junglescout
+- `ko-fi-automation` — 自动化 Ko Fi
+- `kraken-io-automation` — 自动化 Kraken IO
+- `lemon-squeezy-automation` — 自动化 Lemon Squeezy
+- `loyverse-automation` — 自动化 Loyverse
+- `payhip-automation` — 自动化 Payhip
+- `postgrid-automation` — 自动化 Postgrid
+- `postgrid-verify-automation` — 自动化 Postgrid Verify
+- `raisely-automation` — 自动化 Raisely
+- `repairshopr-automation` — 自动化 Repairshopr
+- `retailed-automation` — 自动化 Retailed
+- `shipengine-automation` — 自动化 Shipengine
+- `storeganise-automation` — 自动化 Storeganise
+- `storerocket-automation` — 自动化 Storerocket
+- `zylvie-automation` — 自动化 Zylvie
+
+## 15. 旅行与活动 · `travel-events`(16)
+
+- `apaleo-automation` — 自动化 Apaleo
+- `bart-automation` — 自动化 Bart
+- `bookingmood-automation` — 自动化 Bookingmood
+- `booqable-automation` — 自动化 Booqable
+- `cabinpanda-automation` — 自动化 Cabinpanda
+- `evenium-automation` — 自动化 Evenium
+- `eventbrite-automation` — 自动化 Eventbrite(活动票务)
+- `eventee-automation` — 自动化 Eventee
+- `eventzilla-automation` — 自动化 Eventzilla
+- `expofp-automation` — 自动化 Expofp
+- `humanitix-automation` — 自动化 Humanitix
+- `lodgify-automation` — 自动化 Lodgify
+- `rafflys-automation` — 自动化 Rafflys
+- `seat-geek-automation` — 自动化 Seat Geek
+- `sympla-automation` — 自动化 Sympla
+- `tripadvisor-content-api-automation` — 自动化 Tripadvisor Content API
+
+## 16. 体育与游戏 · `sports-gaming`(6)
+
+- `api-sports-automation` — 自动化 API Sports
+- `battlenet-automation` — 自动化 Battlenet
+- `college-football-data-automation` — 自动化 College Football Data
+- `dungeon-fighter-online-automation` — 自动化 Dungeon Fighter Online
+- `epic-games-automation` — 自动化 Epic Games
+- `the-odds-api-automation` — 自动化 The Odds API
+
+## 17. 健康与健身 · `health-fitness`(2)
+
+- `fitbit-automation` — 自动化 Fitbit
+- `strava-automation` — 自动化 Strava
+
+## 18. 物流与现场 · `logistics-field`(4)
+
+- `detrack-automation` — 自动化 Detrack
+- `optimoroute-automation` — 自动化 Optimoroute
+- `route4me-automation` — 自动化 Route4Me
+- `servicem8-automation` — 自动化 Servicem8
+
+## 19. 教育 · `education`(7)
+
+- `blackboard-automation` — 自动化 Blackboard
+- `classmarker-automation` — 自动化 Classmarker
+- `coassemble-automation` — 自动化 Coassemble
+- `d2lbrightspace-automation` — 自动化 D2Lbrightspace
+- `google-classroom-automation` — 自动化 Google Classroom
+- `lessonspace-automation` — 自动化 Lessonspace
+- `linguapop-automation` — 自动化 Linguapop
+
+## 20. 通用 / 其他 · `general`(57)
+
+- `-21risk-automation` — 自动化 21Risk
+- `-2chat-automation` — 自动化 2Chat
+- `abuselpdb-automation` — 自动化 Abuselpdb
+- `acculynx-automation` — 自动化 Acculynx
+- `addresszen-automation` — 自动化 Addresszen
+- `adyntel-automation` — 自动化 Adyntel
+- `aero-workflow-automation` — 自动化 Aero Workflow
+- `anonyflow-automation` — 自动化 Anonyflow
+- `ascora-automation` — 自动化 Ascora
+- `autom-automation` — 自动化 Autom
+- `bonsai-automation` — 自动化 Bonsai
+- `borneo-automation` — 自动化 Borneo
+- `brilliant-directories-automation` — 自动化 Brilliant Directories
+- `connect` — 处理 Connect
+- `connect-apps` — 处理 Connect Apps
+- `curated-automation` — 自动化 Curated
+- `dotsimple-automation` — 自动化 Dotsimple
+- `dovetail-automation` — 自动化 Dovetail
+- `exist-automation` — 自动化 Exist
+- `faceup-automation` — 自动化 Faceup
+- `finerworks-automation` — 自动化 Finerworks
+- `fingertip-automation` — 自动化 Fingertip
+- `github-vault-router` — 处理 Github Vault Router(GitHub 能力路由工作流)
+- `googlesuper-automation` — 自动化 Googlesuper
+- `highergov-automation` — 自动化 Highergov
+- `hystruct-automation` — 自动化 Hystruct
+- `icypeas-automation` — 自动化 Icypeas
+- `idea-scale-automation` — 自动化 Idea Scale
+- `karpathy-guidelines` — 处理 Karpathy Guidelines
+- `l2s-automation` — 自动化 L2S
+- `modelry-automation` — 自动化 Modelry
+- `more-trees-automation` — 自动化 More Trees
+- `mx-technologies-automation` — 自动化 Mx Technologies
+- `ncscale-automation` — 自动化 Ncscale
+- `needle-automation` — 自动化 Needle
+- `onedesk-automation` — 自动化 Onedesk
+- `onepage-automation` — 自动化 Onepage
+- `optimize-agent-capabilities` — 处理 Optimize Agent Capabilities
+- `owl-protocol-automation` — 自动化 Owl Protocol
+- `page-x-automation` — 自动化 Page X
+- `paradym-automation` — 自动化 Paradym
+- `parallel-automation` — 自动化 Parallel
+- `piggy-automation` — 自动化 Piggy
+- `pilvio-automation` — 自动化 Pilvio
+- `precoro-automation` — 自动化 Precoro
+- `procfu-automation` — 自动化 Procfu
+- `raffle-winner-picker` — 处理 Raffle Winner Picker
+- `rkvst-automation` — 自动化 Rkvst
+- `safetyculture-automation` — 自动化 Safetyculture
+- `short-menu-automation` — 自动化 Short Menu
+- `skill-capability-router` — 处理 Skill Capability Router
+- `skyfire-automation` — 自动化 Skyfire
+- `tpscheck-automation` — 自动化 Tpscheck
+- `u301-automation` — 自动化 U301
+- `whautomate-automation` — 自动化 Whautomate
+- `y-gy-automation` — 自动化 Y Gy
+- `yelp-automation` — 自动化 Yelp
