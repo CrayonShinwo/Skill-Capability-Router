@@ -1,6 +1,6 @@
 # 技能能力路由 — 中文技能目录
 
-> 由 `scripts/generate_router.py` 生成。共 **846** 个技能、**20** 个分类。
+> 由 `scripts/generate_router.py` 生成。共 **851** 个技能、**20** 个分类。
 > 技能名保持英文(调用时用),释义为中文;未收录释义的自动化技能用「自动化 + 英文名」。
 
 ## 1. 财务与支付 · `finance-payments`(56)
@@ -368,7 +368,7 @@
 - `ticketmaster-automation` — 自动化 Ticketmaster(票务平台)
 - `wati-automation` — 自动化 Wati
 
-## 10. 开发与工具 · `dev-tools`(193)
+## 10. 开发与工具 · `dev-tools`(195)
 
 - `abstract-automation` — 自动化 Abstract
 - `agentql-automation` — 自动化 Agentql
@@ -407,6 +407,7 @@
 - `bugherd-automation` — 自动化 Bugherd
 - `bugsnag-automation` — 自动化 Bugsnag
 - `changelog-generator` — 处理 Changelog Generator
+- `claude-api` — 处理 Claude API
 - `cloudcart-automation` — 自动化 Cloudcart
 - `cloudconvert-automation` — 自动化 Cloudconvert
 - `cloudflare-api-key-automation` — 自动化 Cloudflare API Key
@@ -553,6 +554,7 @@
 - `virustotal-automation` — 自动化 Virustotal
 - `wachete-automation` — 自动化 Wachete
 - `wakatime-automation` — 自动化 Wakatime
+- `web-artifacts-builder` — 处理 Web Artifacts Builder
 - `webapp-testing` — 处理 Webapp Testing
 - `webscraping-ai-automation` — 自动化 Webscraping AI
 - `webvizio-automation` — 自动化 Webvizio
@@ -614,11 +616,12 @@
 - `typless-automation` — 自动化 Typless
 - `weathermap-automation` — 自动化 Weathermap
 
-## 12. AI / 机器学习与媒体 · `ai-ml-media`(74)
+## 12. AI / 机器学习与媒体 · `ai-ml-media`(76)
 
 - `abyssale-automation` — 自动化 Abyssale
 - `ai-ml-api-automation` — 自动化 AI ML API
 - `aivoov-automation` — 自动化 Aivoov
+- `algorithmic-art` — 处理 Algorithmic Art
 - `all-images-ai-automation` — 自动化 All Images AI
 - `alttext-ai-automation` — 自动化 Alttext AI
 - `anthropic-administrator-automation` — 自动化 Anthropic Administrator
@@ -640,6 +643,7 @@
 - `entelligence-automation` — 自动化 Entelligence
 - `flexisign-automation` — 自动化 Flexisign
 - `flowiseai-automation` — 自动化 Flowiseai
+- `frontend-design` — 处理 Frontend Design
 - `gamma-automation` — 自动化 Gamma
 - `gan-ai-automation` — 自动化 Gan AI
 - `gemini-automation` — 自动化 Gemini(谷歌 Gemini)
@@ -691,7 +695,7 @@
 - `wit-ai-automation` — 自动化 Wit AI
 - `writer-automation` — 自动化 Writer
 
-## 13. 文档与文件 · `documents-files`(69)
+## 13. 文档与文件 · `documents-files`(70)
 
 - `accredible-certificates-automation` — 自动化 Accredible Certificates
 - `adobe-automation` — 自动化 Adobe
@@ -709,6 +713,7 @@
 - `certifier-automation` — 自动化 Certifier
 - `convertapi-automation` — 自动化 Convertapi
 - `craftmypdf-automation` — 自动化 Craftmypdf
+- `doc-coauthoring` — 处理 Doc Coauthoring
 - `dock-certs-automation` — 自动化 Dock Certs
 - `docmosis-automation` — 自动化 Docmosis
 - `docnify-automation` — 自动化 Docnify

@@ -419,6 +419,9 @@ BASE_OVERRIDES = {
     "canvas": "ai-ml-media",
     "customer.io": "marketing-email",
     "grafbase": "dev-tools",
+    "frontend-design": "ai-ml-media",
+    "web-artifacts-builder": "dev-tools",
+    "algorithmic-art": "ai-ml-media",
 }
 
 

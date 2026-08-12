@@ -368,7 +368,7 @@
 - `ticketmaster-automation` — Automate Ticketmaster [-]
 - `wati-automation` — Automate Wati [-]
 
-## dev-tools (193)
+## dev-tools (195)
 
 - `abstract-automation` — Automate Abstract [-]
 - `agentql-automation` — Automate Agentql [-]
@@ -407,6 +407,7 @@
 - `bugherd-automation` — Automate Bugherd [-]
 - `bugsnag-automation` — Automate Bugsnag [-]
 - `changelog-generator` — Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing change… [-]
+- `claude-api` — Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, c… [on]
 - `cloudcart-automation` — Automate Cloudcart [-]
 - `cloudconvert-automation` — Automate Cloudconvert [-]
 - `cloudflare-automation` — Automate Cloudflare [-]
@@ -553,6 +554,7 @@
 - `virustotal-automation` — Automate Virustotal [-]
 - `wachete-automation` — Automate Wachete [-]
 - `wakatime-automation` — Automate Wakatime [-]
+- `web-artifacts-builder` — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web tech… [on]
 - `webapp-testing` — Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend… [-]
 - `webscraping-ai-automation` — Automate Webscraping AI [-]
 - `webvizio-automation` — Automate Webvizio [-]
@@ -614,11 +616,12 @@
 - `typless-automation` — Automate Typless [-]
 - `weathermap-automation` — Automate Weathermap [-]
 
-## ai-ml-media (74)
+## ai-ml-media (76)
 
 - `abyssale-automation` — Automate Abyssale [-]
 - `ai-ml-api-automation` — Automate AI ML API [-]
 - `aivoov-automation` — Automate Aivoov [-]
+- `algorithmic-art` — Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this wh… [on]
 - `all-images-ai-automation` — Automate All Images AI [-]
 - `alttext-ai-automation` — Automate Alttext AI [-]
 - `anthropic-administrator-automation` — Automate Anthropic Administrator (alias: anthropic_administrator-automation) [-]
@@ -640,6 +643,7 @@
 - `entelligence-automation` — Automate Entelligence [-]
 - `flexisign-automation` — Automate Flexisign [-]
 - `flowiseai-automation` — Automate Flowiseai [-]
+- `frontend-design` — Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w… [on]
 - `gamma-automation` — Automate Gamma [-]
 - `gan-ai-automation` — Automate Gan AI [-]
 - `gemini-automation` — Automate Gemini [-]
@@ -691,7 +695,7 @@
 - `wit-ai-automation` — Automate Wit AI [-]
 - `writer-automation` — Automate Writer [-]
 
-## documents-files (69)
+## documents-files (70)
 
 - `accredible-certificates-automation` — Automate Accredible Certificates [-]
 - `adobe-automation` — Automate Adobe [-]
@@ -709,6 +713,7 @@
 - `certifier-automation` — Automate Certifier [-]
 - `convertapi-automation` — Automate Convertapi [-]
 - `craftmypdf-automation` — Automate Craftmypdf [-]
+- `doc-coauthoring` — Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documen… [on]
 - `dock-certs-automation` — Automate Dock Certs [-]
 - `docmosis-automation` — Automate Docmosis [-]
 - `docnify-automation` — Automate Docnify [-]
@@ -901,7 +906,7 @@
 - `rkvst-automation` — Automate Rkvst [-]
 - `safetyculture-automation` — Automate Safetyculture [-]
 - `short-menu-automation` — Automate Short Menu [-]
-- `skill-capability-router` — Route a task to the best installed skill from a generated capability registry (845 skills managed by CC Switch… [on]
+- `skill-capability-router` — Route a task to the best installed skill from a generated capability registry (850+ skills managed by CC Switc… [on]
 - `skyfire-automation` — Automate Skyfire [-]
 - `tpscheck-automation` — Automate Tpscheck [-]
 - `u301-automation` — Automate U301 [-]

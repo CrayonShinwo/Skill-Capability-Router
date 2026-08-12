@@ -1,6 +1,6 @@
 ---
 name: skill-capability-router
-description: Route a task to the best installed skill from a generated capability registry (845 skills managed by CC Switch). Use when the user names or implies a tool, app, platform, or domain and the correct installed skill must be selected — e.g. "automate Xero", "send a Slack message", "work on a PDF", "query Snowflake", "pull CRM leads", "track time", "generate an image". Also use when it is unclear which installed skill matches a task. Do not use for ordinary coding unrelated to skill selection.
+description: Route a task to the best installed skill from a generated capability registry (850+ skills managed by CC Switch). Use when the user names or implies a tool, app, platform, or domain and the correct installed skill must be selected — e.g. "automate Xero", "send a Slack message", "work on a PDF", "query Snowflake", "pull CRM leads", "track time", "generate an image". Also use when it is unclear which installed skill matches a task. Do not use for ordinary coding unrelated to skill selection.
 ---
 
 # Skill Capability Router

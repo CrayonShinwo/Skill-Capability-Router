@@ -8,7 +8,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `abyssale-automation`
 - **description**: Automate Abyssale tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ai-ml-api-automation
 
@@ -16,7 +16,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ai-ml-api-automation`
 - **description**: Automate AI ML API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## aivoov-automation
 
@@ -24,7 +24,15 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `aivoov-automation`
 - **description**: Automate Aivoov tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
+
+## algorithmic-art
+
+- **base / capability**: use Algorithmic Art — Creating algorithmic art using p5
+- **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: community
+- **directory**: `algorithmic-art`
+- **description**: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+- **enabled**: claude  (claude=1, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=0)
 
 ## all-images-ai-automation
 
@@ -32,7 +40,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `all-images-ai-automation`
 - **description**: Automate All Images AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## alttext-ai-automation
 
@@ -40,7 +48,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `alttext-ai-automation`
 - **description**: Automate Alttext AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## anthropic-administrator-automation
 
@@ -49,7 +57,7 @@
 - **directory**: `anthropic-administrator-automation`
 - **aliases**: anthropic_administrator-automation
 - **description**: Automate Anthropic Admin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## artifacts-builder
 
@@ -57,7 +65,7 @@
 - **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `artifacts-builder`
 - **description**: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## astica-ai-automation
 
@@ -65,7 +73,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `astica-ai-automation`
 - **description**: Automate Astica AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bolna-automation
 
@@ -73,7 +81,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bolna-automation`
 - **description**: Automate Bolna tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bunnycdn-automation
 
@@ -81,7 +89,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bunnycdn-automation`
 - **description**: Automate Bunnycdn tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## canvas-automation
 
@@ -89,7 +97,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `canvas-automation`
 - **description**: Automate Canvas tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## canvas-design
 
@@ -97,7 +105,7 @@
 - **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `canvas-design`
 - **description**: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cardly-automation
 
@@ -105,7 +113,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cardly-automation`
 - **description**: Automate Cardly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## castingwords-automation
 
@@ -113,7 +121,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `castingwords-automation`
 - **description**: Automate Castingwords tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cincopa-automation
 
@@ -121,7 +129,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cincopa-automation`
 - **description**: Automate Cincopa tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## claid-ai-automation
 
@@ -129,7 +137,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `claid-ai-automation`
 - **description**: Automate Claid AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## content-research-writer
 
@@ -137,7 +145,7 @@
 - **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `content-research-writer`
 - **description**: Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## convolo-ai-automation
 
@@ -145,7 +153,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `convolo-ai-automation`
 - **description**: Automate Convolo AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## deepgram-automation
 
@@ -153,7 +161,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `deepgram-automation`
 - **description**: Automate Deepgram tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dreamstudio-automation
 
@@ -161,7 +169,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dreamstudio-automation`
 - **description**: Automate Dreamstudio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## elevenlabs-automation
 
@@ -169,7 +177,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `elevenlabs-automation`
 - **description**: Automate ElevenLabs text-to-speech workflows -- generate speech from text, browse and inspect voices, check subscription limits, list models, stream audio, and retrieve history via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## entelligence-automation
 
@@ -177,7 +185,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `entelligence-automation`
 - **description**: Automate Entelligence tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## flexisign-automation
 
@@ -185,7 +193,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `flexisign-automation`
 - **description**: Automate Flexisign tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## flowiseai-automation
 
@@ -193,7 +201,15 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `flowiseai-automation`
 - **description**: Automate Flowiseai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
+
+## frontend-design
+
+- **base / capability**: use Frontend Design — Guidance for distinctive, intentional visual design when building new UI or resh
+- **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: community
+- **directory**: `frontend-design`
+- **description**: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
+- **enabled**: claude  (claude=1, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=0)
 
 ## gamma-automation
 
@@ -201,7 +217,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gamma-automation`
 - **description**: Automate Gamma tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gan-ai-automation
 
@@ -209,7 +225,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gan-ai-automation`
 - **description**: Automate Gan AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gemini-automation
 
@@ -217,7 +233,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gemini-automation`
 - **description**: Automate Gemini tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gladia-automation
 
@@ -225,7 +241,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gladia-automation`
 - **description**: Automate Gladia tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googlephotos-automation
 
@@ -233,7 +249,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googlephotos-automation`
 - **description**: Automate Google Photos tasks via Rube MCP (Composio): upload media, manage albums, search photos, batch add items, create and update albums. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## griptape-automation
 
@@ -241,7 +257,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `griptape-automation`
 - **description**: Automate Griptape tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## happy-scribe-automation
 
@@ -249,7 +265,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `happy-scribe-automation`
 - **description**: Automate Happy Scribe tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## heygen-automation
 
@@ -257,7 +273,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `heygen-automation`
 - **description**: Automate AI video generation, avatar browsing, template-based video creation, and video status tracking through HeyGen's platform via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## humanloop-automation
 
@@ -265,7 +281,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `humanloop-automation`
 - **description**: Automate Humanloop tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## image-enhancer
 
@@ -273,7 +289,7 @@
 - **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `image-enhancer`
 - **description**: Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## imgbb-automation
 
@@ -281,7 +297,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `imgbb-automation`
 - **description**: Automate Imgbb tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## imgix-automation
 
@@ -289,7 +305,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `imgix-automation`
 - **description**: Automate Imgix tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## insighto-ai-automation
 
@@ -297,7 +313,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `insighto-ai-automation`
 - **description**: Automate Insighto AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## langbase-automation
 
@@ -305,7 +321,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `langbase-automation`
 - **description**: Automate Langbase tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## langsmith-fetch
 
@@ -313,7 +329,7 @@
 - **category**: ai-ml-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `langsmith-fetch`
 - **description**: Debug LangChain and LangGraph agents by fetching execution traces from LangSmith Studio. Use when debugging agent behavior, investigating errors, analyzing tool calls, checking memory operations, or examining agent performance. Automatically fetches recent traces and analyzes execution patterns. Requires langsmith-fetch CLI installed.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## listennotes-automation
 
@@ -321,7 +337,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `listennotes-automation`
 - **description**: Automate Listennotes tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lmnt-automation
 
@@ -329,7 +345,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lmnt-automation`
 - **description**: Automate Lmnt tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## logo-dev-automation
 
@@ -337,7 +353,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `logo-dev-automation`
 - **description**: Automate Logo Dev tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## melo-automation
 
@@ -345,7 +361,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `melo-automation`
 - **description**: Automate Melo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mem-automation
 
@@ -353,7 +369,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mem-automation`
 - **description**: Automate Mem tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mem0-automation
 
@@ -361,7 +377,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mem0-automation`
 - **description**: Automate Mem0 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## memberspot-automation
 
@@ -369,7 +385,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `memberspot-automation`
 - **description**: Automate Memberspot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## membervault-automation
 
@@ -377,7 +393,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `membervault-automation`
 - **description**: Automate Membervault tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mistral-ai-automation
 
@@ -386,7 +402,7 @@
 - **directory**: `mistral-ai-automation`
 - **aliases**: mistral_ai-automation
 - **description**: Automate Mistral AI operations -- manage files and libraries, upload documents for fine-tuning, batch processing, and OCR, track fine-tuning jobs, and build RAG pipelines via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## openai-automation
 
@@ -394,7 +410,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `openai-automation`
 - **description**: Automate OpenAI API operations -- generate responses with multimodal and structured output support, create embeddings, generate images, and list models via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## openrouter-automation
 
@@ -402,7 +418,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `openrouter-automation`
 - **description**: Automate Openrouter tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## perplexityai-automation
 
@@ -410,7 +426,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `perplexityai-automation`
 - **description**: Automate Perplexityai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pexels-automation
 
@@ -418,7 +434,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pexels-automation`
 - **description**: Automate Pexels tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## placid-automation
 
@@ -426,7 +442,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `placid-automation`
 - **description**: Automate Placid tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ragic-automation
 
@@ -434,7 +450,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ragic-automation`
 - **description**: Automate Ragic tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## remove-bg-automation
 
@@ -442,7 +458,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `remove-bg-automation`
 - **description**: Automate Remove Bg tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## replicate-automation
 
@@ -450,7 +466,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `replicate-automation`
 - **description**: Automate Replicate AI model operations -- run predictions, upload files, inspect model schemas, list versions, and manage prediction history via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## retellai-automation
 
@@ -458,7 +474,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `retellai-automation`
 - **description**: Automate Retellai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rev-ai-automation
 
@@ -466,7 +482,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rev-ai-automation`
 - **description**: Automate Rev AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## shortpixel-automation
 
@@ -474,7 +490,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `shortpixel-automation`
 - **description**: Automate Shortpixel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## shotstack-automation
 
@@ -482,7 +498,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `shotstack-automation`
 - **description**: Automate Shotstack tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sitespeakai-automation
 
@@ -490,7 +506,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sitespeakai-automation`
 - **description**: Automate Sitespeakai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## smugmug-automation
 
@@ -498,7 +514,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `smugmug-automation`
 - **description**: Automate Smugmug tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## spotify-automation
 
@@ -506,7 +522,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `spotify-automation`
 - **description**: Automate Spotify workflows including playlist management, music search, playback control, and user profile access via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## spotlightr-automation
 
@@ -514,7 +530,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `spotlightr-automation`
 - **description**: Automate Spotlightr tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## synthflow-ai-automation
 
@@ -522,7 +538,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `synthflow-ai-automation`
 - **description**: Automate Synthflow AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## textcortex-automation
 
@@ -530,7 +546,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `textcortex-automation`
 - **description**: Automate Textcortex tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## timelinesai-automation
 
@@ -538,7 +554,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `timelinesai-automation`
 - **description**: Automate Timelinesai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## toneden-automation
 
@@ -546,7 +562,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `toneden-automation`
 - **description**: Automate Toneden tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## uploadcare-automation
 
@@ -554,7 +570,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `uploadcare-automation`
 - **description**: Automate Uploadcare file management including listing, storing, inspecting, downloading, and organizing file groups through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## v0-automation
 
@@ -562,7 +578,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `v0-automation`
 - **description**: Automate V0 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## veo-automation
 
@@ -570,7 +586,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `veo-automation`
 - **description**: Automate Veo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## winston-ai-automation
 
@@ -578,7 +594,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `winston-ai-automation`
 - **description**: Automate Winston AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wit-ai-automation
 
@@ -586,7 +602,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `wit-ai-automation`
 - **description**: Automate Wit AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## writer-automation
 
@@ -594,7 +610,7 @@
 - **category**: ai-ml-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `writer-automation`
 - **description**: Automate Writer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ably-automation
 
@@ -602,7 +618,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ably-automation`
 - **description**: Automate Ably tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## agencyzoom-automation
 
@@ -610,7 +626,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `agencyzoom-automation`
 - **description**: Automate Agencyzoom tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## agent-mail-automation
 
@@ -618,7 +634,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `agent-mail-automation`
 - **description**: Automate Agent Mail tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bigmailer-automation
 
@@ -626,7 +642,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bigmailer-automation`
 - **description**: Automate Bigmailer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## callerapi-automation
 
@@ -634,7 +650,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `callerapi-automation`
 - **description**: Automate Callerapi tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## callingly-automation
 
@@ -642,7 +658,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `callingly-automation`
 - **description**: Automate Callingly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## callpage-automation
 
@@ -650,7 +666,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `callpage-automation`
 - **description**: Automate Callpage tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## chatwork-automation
 
@@ -658,7 +674,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `chatwork-automation`
 - **description**: Automate Chatwork tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## chmeetings-automation
 
@@ -666,7 +682,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `chmeetings-automation`
 - **description**: Automate Chmeetings tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## clickmeeting-automation
 
@@ -674,7 +690,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `clickmeeting-automation`
 - **description**: Automate Clickmeeting tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dailybot-automation
 
@@ -682,7 +698,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dailybot-automation`
 - **description**: Automate Dailybot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## demio-automation
 
@@ -690,7 +706,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `demio-automation`
 - **description**: Automate Demio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dialmycalls-automation
 
@@ -698,7 +714,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dialmycalls-automation`
 - **description**: Automate Dialmycalls tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dialpad-automation
 
@@ -706,7 +722,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dialpad-automation`
 - **description**: Automate Dialpad tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## discordbot-automation
 
@@ -714,7 +730,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `discordbot-automation`
 - **description**: Automate Discordbot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## go-to-webinar-automation
 
@@ -722,7 +738,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `go-to-webinar-automation`
 - **description**: Automate GoToWebinar tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googlemeet-automation
 
@@ -730,7 +746,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googlemeet-automation`
 - **description**: Automate Google Meet tasks via Rube MCP (Composio): create Meet spaces, schedule video conferences via Calendar events, manage meeting access. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hookdeck-automation
 
@@ -738,7 +754,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hookdeck-automation`
 - **description**: Automate Hookdeck tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## internal-comms
 
@@ -746,7 +762,7 @@
 - **category**: communication-collab  ·  **kind**: utility  ·  **source**: community
 - **directory**: `internal-comms`
 - **description**: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## livesession-automation
 
@@ -754,7 +770,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `livesession-automation`
 - **description**: Automate Livesession tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## many-chat-automation
 
@@ -763,7 +779,7 @@
 - **directory**: `many-chat-automation`
 - **aliases**: many_chat-automation
 - **description**: Automate ManyChat tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## meeting-insights-analyzer
 
@@ -771,7 +787,7 @@
 - **category**: communication-collab  ·  **kind**: utility  ·  **source**: community
 - **directory**: `meeting-insights-analyzer`
 - **description**: Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## missive-automation
 
@@ -779,7 +795,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `missive-automation`
 - **description**: Automate Missive tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mocean-automation
 
@@ -787,7 +803,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mocean-automation`
 - **description**: Automate Mocean tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## msg91-automation
 
@@ -795,7 +811,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `msg91-automation`
 - **description**: Automate Msg91 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pushbullet-automation
 
@@ -803,7 +819,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pushbullet-automation`
 - **description**: Automate Pushbullet tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pushover-automation
 
@@ -811,7 +827,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pushover-automation`
 - **description**: Automate Pushover tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## recallai-automation
 
@@ -819,7 +835,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `recallai-automation`
 - **description**: Automate Recallai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## resend-automation
 
@@ -827,7 +843,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `resend-automation`
 - **description**: Automate Resend tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## revolt-automation
 
@@ -835,7 +851,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `revolt-automation`
 - **description**: Automate Revolt tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ring-central-automation
 
@@ -843,7 +859,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ring-central-automation`
 - **description**: RingCentral automation via Rube MCP -- toolkit not currently available in Composio; no RING_CENTRAL_ tools found
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ring_central-automation
 
@@ -851,7 +867,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ring_central-automation`
 - **description**: Automate RingCentral tasks via Rube MCP (Composio): calls, messages, meetings, and unified communications. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sendbird-ai-chabot-automation
 
@@ -859,7 +875,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sendbird-ai-chabot-automation`
 - **description**: Automate Sendbird AI Chabot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sendbird-automation
 
@@ -867,7 +883,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sendbird-automation`
 - **description**: Automate Sendbird tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## slackbot-automation
 
@@ -875,7 +891,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `slackbot-automation`
 - **description**: Automate Slackbot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sms-alert-automation
 
@@ -883,7 +899,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sms-alert-automation`
 - **description**: Automate SMS Alert tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## smtp2go-automation
 
@@ -891,7 +907,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `smtp2go-automation`
 - **description**: Automate Smtp2go tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## svix-automation
 
@@ -899,7 +915,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `svix-automation`
 - **description**: Automate Svix tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## telnyx-automation
 
@@ -907,7 +923,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `telnyx-automation`
 - **description**: Automate Telnyx tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## textit-automation
 
@@ -915,7 +931,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `textit-automation`
 - **description**: Automate Textit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## veriphone-automation
 
@@ -923,7 +939,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `veriphone-automation`
 - **description**: Automate Veriphone tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## vestaboard-automation
 
@@ -931,7 +947,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `vestaboard-automation`
 - **description**: Automate Vestaboard tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## waboxapp-automation
 
@@ -939,7 +955,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `waboxapp-automation`
 - **description**: Automate Waboxapp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## webex-automation
 
@@ -947,7 +963,7 @@
 - **category**: communication-collab  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `webex-automation`
 - **description**: Automate Cisco Webex messaging, rooms, teams, webhooks, and people management through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## accelo-automation
 
@@ -955,7 +971,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `accelo-automation`
 - **description**: Automate Accelo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## aeroleads-automation
 
@@ -963,7 +979,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `aeroleads-automation`
 - **description**: Automate Aeroleads tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## affinity-automation
 
@@ -971,7 +987,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `affinity-automation`
 - **description**: Automate Affinity tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apollo-automation
 
@@ -979,7 +995,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apollo-automation`
 - **description**: Automate Apollo.io lead generation -- search organizations, discover contacts, enrich prospect data, manage contact stages, and build targeted outreach lists -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## attio-automation
 
@@ -987,7 +1003,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `attio-automation`
 - **description**: Automate Attio CRM operations -- search records, query contacts and companies with advanced filters, manage notes, list attributes, and navigate your relationship data -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## autobound-automation
 
@@ -995,7 +1011,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `autobound-automation`
 - **description**: Automate Autobound tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## axonaut-automation
 
@@ -1003,7 +1019,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `axonaut-automation`
 - **description**: Automate Axonaut tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## breeze-automation
 
@@ -1011,7 +1027,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `breeze-automation`
 - **description**: Automate Breeze tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## capsule-crm-automation
 
@@ -1020,7 +1036,7 @@
 - **directory**: `capsule-crm-automation`
 - **aliases**: capsule_crm-automation
 - **description**: Automate Capsule CRM operations -- manage contacts (parties), run structured filter queries, track tasks and projects, log entries, and handle organizations -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## centralstationcrm-automation
 
@@ -1028,7 +1044,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `centralstationcrm-automation`
 - **description**: Automate Centralstationcrm tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dropcontact-automation
 
@@ -1036,7 +1052,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dropcontact-automation`
 - **description**: Automate Dropcontact tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dynamics365-automation
 
@@ -1044,7 +1060,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dynamics365-automation`
 - **description**: Dynamics 365 Automation: manage CRM contacts, accounts, leads, opportunities, sales orders, invoices, and cases via the Dynamics CRM Web API
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## espocrm-automation
 
@@ -1052,7 +1068,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `espocrm-automation`
 - **description**: Automate Espocrm tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fireberry-automation
 
@@ -1060,7 +1076,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fireberry-automation`
 - **description**: Automate Fireberry tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## folk-automation
 
@@ -1068,7 +1084,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `folk-automation`
 - **description**: Automate Folk tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## forcemanager-automation
 
@@ -1076,7 +1092,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `forcemanager-automation`
 - **description**: Automate Forcemanager tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## godial-automation
 
@@ -1084,7 +1100,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `godial-automation`
 - **description**: Automate Godial tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gong-automation
 
@@ -1092,7 +1108,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gong-automation`
 - **description**: Automate Gong conversation intelligence -- retrieve call recordings, transcripts, detailed analytics, speaker stats, and workspace data -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googleads-automation
 
@@ -1100,7 +1116,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googleads-automation`
 - **description**: Automate Google Ads analytics tasks via Rube MCP (Composio): list Google Ads links, run GA4 reports, check compatibility, list properties and accounts. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## helloleads-automation
 
@@ -1108,7 +1124,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `helloleads-automation`
 - **description**: Automate Helloleads tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## highlevel-automation
 
@@ -1116,7 +1132,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `highlevel-automation`
 - **description**: Automate Highlevel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## jobnimbus-automation
 
@@ -1124,7 +1140,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `jobnimbus-automation`
 - **description**: Automate Jobnimbus tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## keap-automation
 
@@ -1132,7 +1148,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `keap-automation`
 - **description**: Automate Keap tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kommo-automation
 
@@ -1140,7 +1156,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kommo-automation`
 - **description**: Automate Kommo CRM operations -- manage leads, pipelines, pipeline stages, tasks, and custom fields -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lead-research-assistant
 
@@ -1148,7 +1164,7 @@
 - **category**: crm-sales  ·  **kind**: utility  ·  **source**: community
 - **directory**: `lead-research-assistant`
 - **description**: Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## leadfeeder-automation
 
@@ -1156,7 +1172,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `leadfeeder-automation`
 - **description**: Automate Leadfeeder tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## leadoku-automation
 
@@ -1164,7 +1180,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `leadoku-automation`
 - **description**: Automate Leadoku tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## moxie-automation
 
@@ -1172,7 +1188,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `moxie-automation`
 - **description**: Automate Moxie tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## nocrm-io-automation
 
@@ -1180,7 +1196,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `nocrm-io-automation`
 - **description**: Automate Nocrm IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## peopledatalabs-automation
 
@@ -1188,7 +1204,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `peopledatalabs-automation`
 - **description**: Automate Peopledatalabs tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pipeline-crm-automation
 
@@ -1196,7 +1212,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pipeline-crm-automation`
 - **description**: Automate Pipeline CRM tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## salesmate-automation
 
@@ -1204,7 +1220,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `salesmate-automation`
 - **description**: Automate Salesmate tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## seismic-automation
 
@@ -1212,7 +1228,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `seismic-automation`
 - **description**: Automate Seismic tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sidetracker-automation
 
@@ -1220,7 +1236,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sidetracker-automation`
 - **description**: Automate Sidetracker tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## simla-com-automation
 
@@ -1228,7 +1244,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `simla-com-automation`
 - **description**: Automate Simla Com tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-automation
 
@@ -1236,7 +1252,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zoho-automation`
 - **description**: Automate Zoho tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-bigin-automation
 
@@ -1245,7 +1261,7 @@
 - **directory**: `zoho-bigin-automation`
 - **aliases**: zoho_bigin-automation
 - **description**: Automate Zoho Bigin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-desk-automation
 
@@ -1254,7 +1270,7 @@
 - **directory**: `zoho-desk-automation`
 - **aliases**: zoho_desk-automation
 - **description**: Zoho Desk automation via Rube MCP -- toolkit not currently available in Composio; no ZOHO_DESK_ tools found
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-mail-automation
 
@@ -1263,7 +1279,7 @@
 - **directory**: `zoho-mail-automation`
 - **aliases**: zoho_mail-automation
 - **description**: Automate Zoho Mail tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoominfo-automation
 
@@ -1271,7 +1287,7 @@
 - **category**: crm-sales  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zoominfo-automation`
 - **description**: Automate Zoominfo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ambee-automation
 
@@ -1279,7 +1295,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ambee-automation`
 - **description**: Automate Ambee tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ambient-weather-automation
 
@@ -1287,7 +1303,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ambient-weather-automation`
 - **description**: Automate Ambient Weather tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## appsflyer-automation
 
@@ -1295,7 +1311,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `appsflyer-automation`
 - **description**: Automate Appsflyer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## aryn-automation
 
@@ -1303,7 +1319,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `aryn-automation`
 - **description**: Automate Aryn tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## asin-data-api-automation
 
@@ -1311,7 +1327,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `asin-data-api-automation`
 - **description**: Automate Asin Data API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## baserow-automation
 
@@ -1319,7 +1335,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `baserow-automation`
 - **description**: Automate Baserow tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bigml-automation
 
@@ -1327,7 +1343,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bigml-automation`
 - **description**: Automate Bigml tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## census-bureau-automation
 
@@ -1335,7 +1351,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `census-bureau-automation`
 - **description**: Automate Census Bureau tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## corrently-automation
 
@@ -1343,7 +1359,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `corrently-automation`
 - **description**: Automate Corrently tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## crustdata-automation
 
@@ -1351,7 +1367,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `crustdata-automation`
 - **description**: Automate Crustdata tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dadata-ru-automation
 
@@ -1359,7 +1375,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dadata-ru-automation`
 - **description**: Automate Dadata Ru tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## datagma-automation
 
@@ -1367,7 +1383,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `datagma-automation`
 - **description**: Automate Datagma tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## datarobot-automation
 
@@ -1375,7 +1391,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `datarobot-automation`
 - **description**: Automate Datarobot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dromo-automation
 
@@ -1383,7 +1399,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dromo-automation`
 - **description**: Automate Dromo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## enigma-automation
 
@@ -1391,7 +1407,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `enigma-automation`
 - **description**: Automate Enigma tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## felt-automation
 
@@ -1399,7 +1415,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `felt-automation`
 - **description**: Automate Felt tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## genderize-automation
 
@@ -1407,7 +1423,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `genderize-automation`
 - **description**: Automate Genderize tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gigasheet-automation
 
@@ -1415,7 +1431,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gigasheet-automation`
 - **description**: Automate Gigasheet tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googlebigquery-automation
 
@@ -1423,7 +1439,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googlebigquery-automation`
 - **description**: Automate Google BigQuery tasks via Rube MCP (Composio): run SQL queries, explore datasets and metadata, execute MBQL queries via Metabase integration. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gosquared-automation
 
@@ -1431,7 +1447,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gosquared-automation`
 - **description**: Automate Gosquared tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## grist-automation
 
@@ -1439,7 +1455,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `grist-automation`
 - **description**: Automate Grist tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## interzoid-automation
 
@@ -1447,7 +1463,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `interzoid-automation`
 - **description**: Automate Interzoid tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## iqair-airvisual-automation
 
@@ -1455,7 +1471,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `iqair-airvisual-automation`
 - **description**: Automate Iqair Airvisual tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kadoa-automation
 
@@ -1463,7 +1479,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kadoa-automation`
 - **description**: Automate Kadoa tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kaggle-automation
 
@@ -1471,7 +1487,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kaggle-automation`
 - **description**: Automate Kaggle tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## keen-io-automation
 
@@ -1479,7 +1495,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `keen-io-automation`
 - **description**: Automate Keen IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## klipfolio-automation
 
@@ -1487,7 +1503,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `klipfolio-automation`
 - **description**: Automate Klipfolio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## labs64-netlicensing-automation
 
@@ -1495,7 +1511,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `labs64-netlicensing-automation`
 - **description**: Automate Labs64 Netlicensing tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## magnetic-automation
 
@@ -1503,7 +1519,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `magnetic-automation`
 - **description**: Automate Magnetic tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## nasa-automation
 
@@ -1511,7 +1527,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `nasa-automation`
 - **description**: Automate Nasa tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ninox-automation
 
@@ -1519,7 +1535,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ninox-automation`
 - **description**: Automate Ninox tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## openweather-api-automation
 
@@ -1527,7 +1543,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `openweather-api-automation`
 - **description**: Automate Openweather API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## parsera-automation
 
@@ -1535,7 +1551,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `parsera-automation`
 - **description**: Automate Parsera tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## perigon-automation
 
@@ -1543,7 +1559,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `perigon-automation`
 - **description**: Automate Perigon tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## platerecognizer-automation
 
@@ -1551,7 +1567,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `platerecognizer-automation`
 - **description**: Automate Platerecognizer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rosette-text-analytics-automation
 
@@ -1559,7 +1575,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rosette-text-analytics-automation`
 - **description**: Automate Rosette Text Analytics tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## semanticscholar-automation
 
@@ -1567,7 +1583,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `semanticscholar-automation`
 - **description**: Automate Semanticscholar tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## simple-analytics-automation
 
@@ -1575,7 +1591,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `simple-analytics-automation`
 - **description**: Automate Simple Analytics tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## snowflake-automation
 
@@ -1583,7 +1599,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `snowflake-automation`
 - **description**: Automate Snowflake data warehouse operations -- list databases, schemas, and tables, execute SQL statements, and manage data workflows via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## stormglass-io-automation
 
@@ -1591,7 +1607,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `stormglass-io-automation`
 - **description**: Automate Stormglass IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## taggun-automation
 
@@ -1599,7 +1615,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `taggun-automation`
 - **description**: Automate Taggun tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## teltel-automation
 
@@ -1607,7 +1623,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `teltel-automation`
 - **description**: Automate Teltel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## textrazor-automation
 
@@ -1615,7 +1631,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `textrazor-automation`
 - **description**: Automate Textrazor tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tisane-automation
 
@@ -1623,7 +1639,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tisane-automation`
 - **description**: Automate Tisane tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## turbot-pipes-automation
 
@@ -1631,7 +1647,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `turbot-pipes-automation`
 - **description**: Automate Turbot Pipes tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## typless-automation
 
@@ -1639,7 +1655,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `typless-automation`
 - **description**: Automate Typless tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## weathermap-automation
 
@@ -1647,7 +1663,7 @@
 - **category**: data-databases  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `weathermap-automation`
 - **description**: Automate Weathermap tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## abstract-automation
 
@@ -1655,7 +1671,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `abstract-automation`
 - **description**: Automate Abstract tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## agentql-automation
 
@@ -1663,7 +1679,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `agentql-automation`
 - **description**: Automate Agentql tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## agenty-automation
 
@@ -1671,7 +1687,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `agenty-automation`
 - **description**: Automate Agenty tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## agility-cms-automation
 
@@ -1679,7 +1695,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `agility-cms-automation`
 - **description**: Automate Agility CMS tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## algolia-automation
 
@@ -1687,7 +1703,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `algolia-automation`
 - **description**: Automate Algolia tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## anchor-browser-automation
 
@@ -1695,7 +1711,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `anchor-browser-automation`
 - **description**: Automate Anchor Browser tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apex27-automation
 
@@ -1703,7 +1719,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apex27-automation`
 - **description**: Automate Apex27 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## api-bible-automation
 
@@ -1711,7 +1727,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `api-bible-automation`
 - **description**: Automate API Bible tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## api-labz-automation
 
@@ -1719,7 +1735,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `api-labz-automation`
 - **description**: Automate API Labz tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## api-ninjas-automation
 
@@ -1727,7 +1743,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `api-ninjas-automation`
 - **description**: Automate API Ninjas tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apify-automation
 
@@ -1735,7 +1751,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apify-automation`
 - **description**: Automate web scraping and data extraction with Apify -- run Actors, manage datasets, create reusable tasks, and retrieve crawl results through the Composio Apify integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apilio-automation
 
@@ -1743,7 +1759,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apilio-automation`
 - **description**: Automate Apilio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apipie-ai-automation
 
@@ -1751,7 +1767,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apipie-ai-automation`
 - **description**: Automate Apipie AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apitemplate-io-automation
 
@@ -1759,7 +1775,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apitemplate-io-automation`
 - **description**: Automate Apitemplate IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apiverve-automation
 
@@ -1767,7 +1783,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apiverve-automation`
 - **description**: Automate Apiverve tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## appcircle-automation
 
@@ -1775,7 +1791,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `appcircle-automation`
 - **description**: Automate Appcircle tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## appdrag-automation
 
@@ -1783,7 +1799,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `appdrag-automation`
 - **description**: Automate Appdrag tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## appveyor-automation
 
@@ -1791,7 +1807,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `appveyor-automation`
 - **description**: Automate Appveyor tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## atlassian-automation
 
@@ -1799,7 +1815,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `atlassian-automation`
 - **description**: Automate Atlassian tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## auth0-automation
 
@@ -1807,7 +1823,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `auth0-automation`
 - **description**: Automate Auth0 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## backendless-automation
 
@@ -1815,7 +1831,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `backendless-automation`
 - **description**: Automate Backendless tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bannerbear-automation
 
@@ -1823,7 +1839,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bannerbear-automation`
 - **description**: Automate Bannerbear tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## better-stack-automation
 
@@ -1831,7 +1847,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `better-stack-automation`
 - **description**: Automate Better Stack tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## big-data-cloud-automation
 
@@ -1839,7 +1855,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `big-data-cloud-automation`
 - **description**: Automate Big Data Cloud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bitwarden-automation
 
@@ -1847,7 +1863,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bitwarden-automation`
 - **description**: Automate Bitwarden tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bolt-iot-automation
 
@@ -1855,7 +1871,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bolt-iot-automation`
 - **description**: Automate Bolt Iot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brightdata-automation
 
@@ -1863,7 +1879,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `brightdata-automation`
 - **description**: Automate Brightdata tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## browseai-automation
 
@@ -1871,7 +1887,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `browseai-automation`
 - **description**: Automate Browseai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## browser-tool-automation
 
@@ -1879,7 +1895,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `browser-tool-automation`
 - **description**: Automate Browser Tool tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## browserbase-tool-automation
 
@@ -1887,7 +1903,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `browserbase-tool-automation`
 - **description**: Automate Browserbase Tool tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## browserhub-automation
 
@@ -1895,7 +1911,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `browserhub-automation`
 - **description**: Automate Browserhub tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## browserless-automation
 
@@ -1903,7 +1919,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `browserless-automation`
 - **description**: Automate Browserless tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bubble-automation
 
@@ -1911,7 +1927,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bubble-automation`
 - **description**: Automate Bubble tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bugbug-automation
 
@@ -1919,7 +1935,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bugbug-automation`
 - **description**: Automate Bugbug tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bugherd-automation
 
@@ -1927,7 +1943,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bugherd-automation`
 - **description**: Automate Bugherd tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bugsnag-automation
 
@@ -1935,7 +1951,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bugsnag-automation`
 - **description**: Automate Bugsnag tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## changelog-generator
 
@@ -1943,7 +1959,17 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `changelog-generator`
 - **description**: Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
+
+## claude-api
+
+- **base / capability**: use Claude API — Reference for the Claude API / Anthropic SDK — model ids, pricing, params, strea
+- **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
+- **directory**: `claude-api`
+- **description**: Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.
+TRIGGER — read BEFORE opening the target file; don't skip because it "looks like a one-liner" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).
+SKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).
+- **enabled**: claude  (claude=1, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=0)
 
 ## cloudcart-automation
 
@@ -1951,7 +1977,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudcart-automation`
 - **description**: Automate Cloudcart tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudconvert-automation
 
@@ -1959,7 +1985,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudconvert-automation`
 - **description**: Automate Cloudconvert tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudflare-api-key-automation
 
@@ -1967,7 +1993,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudflare-api-key-automation`
 - **description**: Automate Cloudflare API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudflare-automation
 
@@ -1975,7 +2001,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudflare-automation`
 - **description**: Automate Cloudflare tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudflare-browser-rendering-automation
 
@@ -1983,7 +2009,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudflare-browser-rendering-automation`
 - **description**: Automate Cloudflare Browser Rendering tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudinary-automation
 
@@ -1991,7 +2017,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudinary-automation`
 - **description**: Automate Cloudinary media management including folder organization, upload presets, asset lookup, transformations, and usage monitoring through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudlayer-automation
 
@@ -1999,7 +2025,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudlayer-automation`
 - **description**: Automate Cloudlayer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cloudpress-automation
 
@@ -2007,7 +2033,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cloudpress-automation`
 - **description**: Automate Cloudpress tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## codacy-automation
 
@@ -2015,7 +2041,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `codacy-automation`
 - **description**: Automate Codacy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## codeinterpreter-automation
 
@@ -2023,7 +2049,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `codeinterpreter-automation`
 - **description**: Automate Codeinterpreter tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## codereadr-automation
 
@@ -2031,7 +2057,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `codereadr-automation`
 - **description**: Automate Codereadr tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## composio-automation
 
@@ -2039,7 +2065,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `composio-automation`
 - **description**: Automate Composio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## composio-search-automation
 
@@ -2047,7 +2073,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `composio-search-automation`
 - **description**: Automate Composio Search tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## contentful-automation
 
@@ -2055,7 +2081,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `contentful-automation`
 - **description**: Automate headless CMS operations in Contentful -- list spaces, retrieve space metadata, and update space configurations through the Composio Contentful integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## contentful-graphql-automation
 
@@ -2063,7 +2089,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `contentful-graphql-automation`
 - **description**: Automate Contentful Graphql tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## control-d-automation
 
@@ -2071,7 +2097,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `control-d-automation`
 - **description**: Automate Control D tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## conversion-tools-automation
 
@@ -2079,7 +2105,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `conversion-tools-automation`
 - **description**: Automate Conversion Tools tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## conveyor-automation
 
@@ -2087,7 +2113,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `conveyor-automation`
 - **description**: Automate Conveyor tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## countdown-api-automation
 
@@ -2095,7 +2121,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `countdown-api-automation`
 - **description**: Automate Countdown API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## crowdin-automation
 
@@ -2103,7 +2129,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `crowdin-automation`
 - **description**: Automate Crowdin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## currents-api-automation
 
@@ -2111,7 +2137,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `currents-api-automation`
 - **description**: Automate Currents API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## customjs-automation
 
@@ -2119,7 +2145,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `customjs-automation`
 - **description**: Automate Customjs tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cutt-ly-automation
 
@@ -2127,7 +2153,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cutt-ly-automation`
 - **description**: Automate Cutt Ly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## developer-growth-analysis
 
@@ -2135,7 +2161,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `developer-growth-analysis`
 - **description**: Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dictionary-api-automation
 
@@ -2143,7 +2169,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dictionary-api-automation`
 - **description**: Automate Dictionary API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## diffbot-automation
 
@@ -2151,7 +2177,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `diffbot-automation`
 - **description**: Automate Diffbot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## digicert-automation
 
@@ -2159,7 +2185,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `digicert-automation`
 - **description**: Automate Digicert tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## digital-ocean-automation
 
@@ -2167,7 +2193,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `digital-ocean-automation`
 - **description**: Automate DigitalOcean tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dnsfilter-automation
 
@@ -2175,7 +2201,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dnsfilter-automation`
 - **description**: Automate Dnsfilter tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docker-hub-automation
 
@@ -2184,7 +2210,7 @@
 - **directory**: `docker-hub-automation`
 - **aliases**: docker_hub-automation
 - **description**: Automate Docker Hub operations -- manage organizations, repositories, teams, members, and webhooks via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## domain-name-brainstormer
 
@@ -2192,7 +2218,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `domain-name-brainstormer`
 - **description**: Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## doppler-secretops-automation
 
@@ -2200,7 +2226,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `doppler-secretops-automation`
 - **description**: Automate Doppler Secretops tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## exa-automation
 
@@ -2208,7 +2234,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `exa-automation`
 - **description**: Automate Exa tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fidel-api-automation
 
@@ -2216,7 +2242,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fidel-api-automation`
 - **description**: Automate Fidel API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## firecrawl-automation
 
@@ -2224,7 +2250,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `firecrawl-automation`
 - **description**: Automate web crawling and data extraction with Firecrawl -- scrape pages, crawl sites, extract structured data, batch scrape URLs, and map website structures through the Composio Firecrawl integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fluxguard-automation
 
@@ -2232,7 +2258,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fluxguard-automation`
 - **description**: Automate Fluxguard tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gender-api-automation
 
@@ -2240,7 +2266,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gender-api-automation`
 - **description**: Automate Gender API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## genderapi-io-automation
 
@@ -2248,7 +2274,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `genderapi-io-automation`
 - **description**: Automate Genderapi IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## geoapify-automation
 
@@ -2256,7 +2282,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `geoapify-automation`
 - **description**: Automate Geoapify tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## geocodio-automation
 
@@ -2264,7 +2290,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `geocodio-automation`
 - **description**: Automate Geocodio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## geokeo-automation
 
@@ -2272,7 +2298,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `geokeo-automation`
 - **description**: Automate Geokeo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## globalping-automation
 
@@ -2280,7 +2306,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `globalping-automation`
 - **description**: Automate Globalping tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## google-address-validation-automation
 
@@ -2288,7 +2314,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `google-address-validation-automation`
 - **description**: Automate Google Address Validation tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## google-admin-automation
 
@@ -2297,7 +2323,7 @@
 - **directory**: `google-admin-automation`
 - **aliases**: google_admin-automation
 - **description**: Automate Google Workspace Admin tasks via Rube MCP (Composio): manage users, groups, memberships, suspend accounts, create users, add aliases. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## google-cloud-vision-automation
 
@@ -2305,7 +2331,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `google-cloud-vision-automation`
 - **description**: Automate Google Cloud Vision tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## google-maps-automation
 
@@ -2314,7 +2340,7 @@
 - **directory**: `google-maps-automation`
 - **aliases**: google_maps-automation
 - **description**: Automate Google Maps tasks via Rube MCP (Composio): geocode addresses, search places, get directions, compute route matrices, reverse geocode, autocomplete, get place details. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## grafbase-automation
 
@@ -2322,7 +2348,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `grafbase-automation`
 - **description**: Automate Grafbase tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## graphhopper-automation
 
@@ -2330,7 +2356,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `graphhopper-automation`
 - **description**: Automate Graphhopper tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## groqcloud-automation
 
@@ -2338,7 +2364,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `groqcloud-automation`
 - **description**: Automate AI inference, chat completions, audio translation, and TTS voice management through GroqCloud's high-performance API via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hackernews-automation
 
@@ -2346,7 +2372,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hackernews-automation`
 - **description**: Automate Hackernews tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hashnode-automation
 
@@ -2354,7 +2380,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hashnode-automation`
 - **description**: Automate Hashnode tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## here-automation
 
@@ -2362,7 +2388,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `here-automation`
 - **description**: Automate Here tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## heyreach-automation
 
@@ -2370,7 +2396,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `heyreach-automation`
 - **description**: Automate Heyreach tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## honeybadger-automation
 
@@ -2378,7 +2404,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `honeybadger-automation`
 - **description**: Automate Honeybadger tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## honeyhive-automation
 
@@ -2386,7 +2412,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `honeyhive-automation`
 - **description**: Automate Honeyhive tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## html-to-image-automation
 
@@ -2394,7 +2420,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `html-to-image-automation`
 - **description**: Automate Html To Image tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hyperbrowser-automation
 
@@ -2402,7 +2428,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hyperbrowser-automation`
 - **description**: Automate Hyperbrowser tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## identitycheck-automation
 
@@ -2410,7 +2436,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `identitycheck-automation`
 - **description**: Automate Identitycheck tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## influxdb-cloud-automation
 
@@ -2418,7 +2444,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `influxdb-cloud-automation`
 - **description**: Automate Influxdb Cloud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ip2location-automation
 
@@ -2426,7 +2452,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ip2location-automation`
 - **description**: Automate Ip2location tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ip2location-io-automation
 
@@ -2434,7 +2460,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ip2location-io-automation`
 - **description**: Automate Ip2location IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ip2proxy-automation
 
@@ -2442,7 +2468,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ip2proxy-automation`
 - **description**: Automate Ip2proxy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ip2whois-automation
 
@@ -2450,7 +2476,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ip2whois-automation`
 - **description**: Automate Ip2whois tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ipdata-co-automation
 
@@ -2458,7 +2484,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ipdata-co-automation`
 - **description**: Automate Ipdata co tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ipinfo-io-automation
 
@@ -2466,7 +2492,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ipinfo-io-automation`
 - **description**: Automate Ipinfo IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## jigsawstack-automation
 
@@ -2474,7 +2500,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `jigsawstack-automation`
 - **description**: Automate Jigsawstack tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## jumpcloud-automation
 
@@ -2482,7 +2508,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `jumpcloud-automation`
 - **description**: Automate Jumpcloud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kontent-ai-automation
 
@@ -2490,7 +2516,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kontent-ai-automation`
 - **description**: Automate Kontent AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lastpass-automation
 
@@ -2498,7 +2524,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lastpass-automation`
 - **description**: Automate Lastpass tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## launch-darkly-automation
 
@@ -2506,7 +2532,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `launch-darkly-automation`
 - **description**: Automate LaunchDarkly feature flag management -- list projects and environments, create and delete trigger workflows, and track code references via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## launch_darkly-automation
 
@@ -2514,7 +2540,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `launch_darkly-automation`
 - **description**: Automate LaunchDarkly tasks via Rube MCP (Composio): feature flags, environments, segments, and rollout management. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## linkhut-automation
 
@@ -2522,7 +2548,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `linkhut-automation`
 - **description**: Automate Linkhut tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## linkup-automation
 
@@ -2530,7 +2556,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `linkup-automation`
 - **description**: Automate Linkup tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mapbox-automation
 
@@ -2538,7 +2564,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mapbox-automation`
 - **description**: Automate Mapbox tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mapulus-automation
 
@@ -2546,7 +2572,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mapulus-automation`
 - **description**: Automate Mapulus tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mcp-builder
 
@@ -2554,7 +2580,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `mcp-builder`
 - **description**: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## memberstack-automation
 
@@ -2562,7 +2588,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `memberstack-automation`
 - **description**: Automate Memberstack tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## metaphor-automation
 
@@ -2570,7 +2596,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `metaphor-automation`
 - **description**: Automate Metaphor tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mezmo-automation
 
@@ -2578,7 +2604,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mezmo-automation`
 - **description**: Automate Mezmo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## microsoft-tenant-automation
 
@@ -2586,7 +2612,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `microsoft-tenant-automation`
 - **description**: Automate Microsoft Tenant tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mx-toolbox-automation
 
@@ -2594,7 +2620,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mx-toolbox-automation`
 - **description**: Automate Mx Toolbox tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## nango-automation
 
@@ -2602,7 +2628,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `nango-automation`
 - **description**: Automate Nango tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## nano-nets-automation
 
@@ -2610,7 +2636,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `nano-nets-automation`
 - **description**: Automate Nano Nets tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## neon-automation
 
@@ -2618,7 +2644,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `neon-automation`
 - **description**: Automate Neon serverless Postgres operations -- manage projects, branches, databases, roles, and connection URIs via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## neutrino-automation
 
@@ -2626,7 +2652,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `neutrino-automation`
 - **description**: Automate Neutrino tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## new-relic-automation
 
@@ -2635,7 +2661,7 @@
 - **directory**: `new-relic-automation`
 - **aliases**: new_relic-automation
 - **description**: Automate New Relic observability workflows -- manage alert policies, notification channels, alert conditions, and monitor applications and browser apps via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## news-api-automation
 
@@ -2643,7 +2669,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `news-api-automation`
 - **description**: Automate News API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## nextdns-automation
 
@@ -2651,7 +2677,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `nextdns-automation`
 - **description**: Automate Nextdns tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ngrok-automation
 
@@ -2659,7 +2685,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ngrok-automation`
 - **description**: Automate Ngrok tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## npm-automation
 
@@ -2667,7 +2693,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `npm-automation`
 - **description**: Automate NPM tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## onesignal-rest-api-automation
 
@@ -2676,7 +2702,7 @@
 - **directory**: `onesignal-rest-api-automation`
 - **aliases**: onesignal_rest_api-automation
 - **description**: Automate OneSignal tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## onesignal-user-auth-automation
 
@@ -2684,7 +2710,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `onesignal-user-auth-automation`
 - **description**: Automate Onesignal User Auth tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## opencage-automation
 
@@ -2692,7 +2718,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `opencage-automation`
 - **description**: Automate Opencage tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## opengraph-io-automation
 
@@ -2700,7 +2726,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `opengraph-io-automation`
 - **description**: Automate Opengraph IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## openperplex-automation
 
@@ -2708,7 +2734,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `openperplex-automation`
 - **description**: Automate Openperplex tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## parma-automation
 
@@ -2716,7 +2742,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `parma-automation`
 - **description**: Automate Parma tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## parsehub-automation
 
@@ -2724,7 +2750,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `parsehub-automation`
 - **description**: Automate Parsehub tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## passcreator-automation
 
@@ -2732,7 +2758,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `passcreator-automation`
 - **description**: Automate Passcreator tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## passslot-automation
 
@@ -2740,7 +2766,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `passslot-automation`
 - **description**: Automate Passslot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## piloterr-automation
 
@@ -2748,7 +2774,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `piloterr-automation`
 - **description**: Automate Piloterr tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pingdom-automation
 
@@ -2756,7 +2782,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pingdom-automation`
 - **description**: Automate Pingdom tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## placekey-automation
 
@@ -2764,7 +2790,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `placekey-automation`
 - **description**: Automate Placekey tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## plasmic-automation
 
@@ -2772,7 +2798,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `plasmic-automation`
 - **description**: Automate Plasmic tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## prerender-automation
 
@@ -2780,7 +2806,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `prerender-automation`
 - **description**: Automate Prerender tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## prisma-automation
 
@@ -2788,7 +2814,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `prisma-automation`
 - **description**: Automate Prisma tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## prismic-automation
 
@@ -2796,7 +2822,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `prismic-automation`
 - **description**: Automate headless CMS operations in Prismic -- query documents, search content, retrieve custom types, and manage repository refs through the Composio Prismic integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## proxiedmail-automation
 
@@ -2804,7 +2830,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `proxiedmail-automation`
 - **description**: Automate Proxiedmail tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## radar-automation
 
@@ -2812,7 +2838,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `radar-automation`
 - **description**: Automate Radar tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## remote-retrieval-automation
 
@@ -2820,7 +2846,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `remote-retrieval-automation`
 - **description**: Automate Remote Retrieval tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## renderform-automation
 
@@ -2828,7 +2854,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `renderform-automation`
 - **description**: Automate Renderform tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rocketlane-automation
 
@@ -2836,7 +2862,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rocketlane-automation`
 - **description**: Automate Rocketlane tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rootly-automation
 
@@ -2844,7 +2870,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rootly-automation`
 - **description**: Automate Rootly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## scrape-do-automation
 
@@ -2852,7 +2878,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `scrape-do-automation`
 - **description**: Automate Scrape Do tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## scrapegraph-ai-automation
 
@@ -2860,7 +2886,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `scrapegraph-ai-automation`
 - **description**: Automate Scrapegraph AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## scrapfly-automation
 
@@ -2868,7 +2894,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `scrapfly-automation`
 - **description**: Automate Scrapfly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## scrapingant-automation
 
@@ -2876,7 +2902,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `scrapingant-automation`
 - **description**: Automate Scrapingant tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## scrapingbee-automation
 
@@ -2884,7 +2910,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `scrapingbee-automation`
 - **description**: Automate Scrapingbee tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## screenshot-fyi-automation
 
@@ -2892,7 +2918,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `screenshot-fyi-automation`
 - **description**: Automate Screenshot Fyi tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## screenshotone-automation
 
@@ -2900,7 +2926,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `screenshotone-automation`
 - **description**: Automate Screenshotone tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## securitytrails-automation
 
@@ -2908,7 +2934,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `securitytrails-automation`
 - **description**: Automate Securitytrails tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sensibo-automation
 
@@ -2916,7 +2942,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sensibo-automation`
 - **description**: Automate Sensibo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## seqera-automation
 
@@ -2924,7 +2950,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `seqera-automation`
 - **description**: Automate Seqera tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## short-io-automation
 
@@ -2932,7 +2958,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `short-io-automation`
 - **description**: Automate Short IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## shorten-rest-automation
 
@@ -2940,7 +2966,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `shorten-rest-automation`
 - **description**: Automate Shorten Rest tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## skill-creator
 
@@ -2948,7 +2974,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `skill-creator`
 - **description**: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## skill-share
 
@@ -2956,7 +2982,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `skill-share`
 - **description**: A skill that creates new Claude skills and automatically shares them on Slack using Rube for seamless team collaboration and skill discovery.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## smartproxy-automation
 
@@ -2964,7 +2990,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `smartproxy-automation`
 - **description**: Automate Smartproxy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sourcegraph-automation
 
@@ -2972,7 +2998,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sourcegraph-automation`
 - **description**: Automate Sourcegraph tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sslmate-cert-spotter-api-automation
 
@@ -2980,7 +3006,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sslmate-cert-spotter-api-automation`
 - **description**: Automate Sslmate Cert Spotter API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## stack-exchange-automation
 
@@ -2988,7 +3014,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `stack-exchange-automation`
 - **description**: Automate Stack Exchange tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## statuscake-automation
 
@@ -2996,7 +3022,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `statuscake-automation`
 - **description**: Automate Statuscake tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## supadata-automation
 
@@ -3004,7 +3030,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `supadata-automation`
 - **description**: Automate Supadata tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tavily-automation
 
@@ -3012,7 +3038,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tavily-automation`
 - **description**: Automate Tavily tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## template-skill
 
@@ -3020,7 +3046,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `template-skill`
 - **description**: Replace with description of the skill and when Claude should use it.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## test-app-automation
 
@@ -3028,7 +3054,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `test-app-automation`
 - **description**: Automate Test App tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## theme-factory
 
@@ -3036,7 +3062,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `theme-factory`
 - **description**: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tinyurl-automation
 
@@ -3044,7 +3070,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tinyurl-automation`
 - **description**: Automate Tinyurl tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tomtom-automation
 
@@ -3052,7 +3078,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tomtom-automation`
 - **description**: Automate Tomtom tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## triggercmd-automation
 
@@ -3060,7 +3086,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `triggercmd-automation`
 - **description**: Automate Triggercmd tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## turso-automation
 
@@ -3068,7 +3094,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `turso-automation`
 - **description**: Automate Turso tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## twocaptcha-automation
 
@@ -3076,7 +3102,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `twocaptcha-automation`
 - **description**: Automate Twocaptcha tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## updown-io-automation
 
@@ -3084,7 +3110,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `updown-io-automation`
 - **description**: Automate Updown IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## uptimerobot-automation
 
@@ -3092,7 +3118,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `uptimerobot-automation`
 - **description**: Automate Uptimerobot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## virustotal-automation
 
@@ -3100,7 +3126,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `virustotal-automation`
 - **description**: Automate Virustotal tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wachete-automation
 
@@ -3108,7 +3134,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `wachete-automation`
 - **description**: Automate Wachete tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wakatime-automation
 
@@ -3116,7 +3142,15 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `wakatime-automation`
 - **description**: Automate Wakatime tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
+
+## web-artifacts-builder
+
+- **base / capability**: use Web Artifacts Builder — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts 
+- **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
+- **directory**: `web-artifacts-builder`
+- **description**: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+- **enabled**: claude  (claude=1, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=0)
 
 ## webapp-testing
 
@@ -3124,7 +3158,7 @@
 - **category**: dev-tools  ·  **kind**: utility  ·  **source**: community
 - **directory**: `webapp-testing`
 - **description**: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## webscraping-ai-automation
 
@@ -3132,7 +3166,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `webscraping-ai-automation`
 - **description**: Automate Webscraping AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## webvizio-automation
 
@@ -3140,7 +3174,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `webvizio-automation`
 - **description**: Automate Webvizio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wiz-automation
 
@@ -3148,7 +3182,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `wiz-automation`
 - **description**: Automate Wiz tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wolfram-alpha-api-automation
 
@@ -3156,7 +3190,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `wolfram-alpha-api-automation`
 - **description**: Automate Wolfram Alpha API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## yandex-automation
 
@@ -3164,7 +3198,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `yandex-automation`
 - **description**: Automate Yandex tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## yousearch-automation
 
@@ -3172,7 +3206,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `yousearch-automation`
 - **description**: Automate Yousearch tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zenrows-automation
 
@@ -3180,7 +3214,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zenrows-automation`
 - **description**: Automate Zenrows tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zeplin-automation
 
@@ -3188,7 +3222,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zeplin-automation`
 - **description**: Automate Zeplin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zyte-api-automation
 
@@ -3196,7 +3230,7 @@
 - **category**: dev-tools  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zyte-api-automation`
 - **description**: Automate Zyte API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## accredible-certificates-automation
 
@@ -3204,7 +3238,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `accredible-certificates-automation`
 - **description**: Automate Accredible Certificates tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## adobe-automation
 
@@ -3212,7 +3246,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `adobe-automation`
 - **description**: Automate Adobe tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## affinda-automation
 
@@ -3220,7 +3254,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `affinda-automation`
 - **description**: Automate Affinda tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## algodocs-automation
 
@@ -3228,7 +3262,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `algodocs-automation`
 - **description**: Automate Algodocs tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## amara-automation
 
@@ -3236,7 +3270,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `amara-automation`
 - **description**: Automate Amara tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## api2pdf-automation
 
@@ -3244,7 +3278,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `api2pdf-automation`
 - **description**: Automate Api2pdf tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apiflash-automation
 
@@ -3252,7 +3286,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apiflash-automation`
 - **description**: Automate Apiflash tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bidsketch-automation
 
@@ -3260,7 +3294,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bidsketch-automation`
 - **description**: Automate Bidsketch tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## boldsign-automation
 
@@ -3268,7 +3302,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `boldsign-automation`
 - **description**: Automate Boldsign tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## boxhero-automation
 
@@ -3276,7 +3310,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `boxhero-automation`
 - **description**: Automate Boxhero tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brand-guidelines
 
@@ -3284,7 +3318,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: community
 - **directory**: `brand-guidelines`
 - **description**: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brandfetch-automation
 
@@ -3292,7 +3326,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `brandfetch-automation`
 - **description**: Automate Brandfetch tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## carbone-automation
 
@@ -3300,7 +3334,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `carbone-automation`
 - **description**: Automate Carbone tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## certifier-automation
 
@@ -3308,7 +3342,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `certifier-automation`
 - **description**: Automate Certifier tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## convertapi-automation
 
@@ -3316,7 +3350,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `convertapi-automation`
 - **description**: Automate Convertapi tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## craftmypdf-automation
 
@@ -3324,7 +3358,15 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `craftmypdf-automation`
 - **description**: Automate Craftmypdf tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
+
+## doc-coauthoring
+
+- **base / capability**: use Doc Coauthoring — Guide users through a structured workflow for co-authoring documentation. Use wh
+- **category**: documents-files  ·  **kind**: utility  ·  **source**: community
+- **directory**: `doc-coauthoring`
+- **description**: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
+- **enabled**: claude  (claude=1, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=0)
 
 ## dock-certs-automation
 
@@ -3332,7 +3374,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dock-certs-automation`
 - **description**: Automate Dock Certs tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docmosis-automation
 
@@ -3340,7 +3382,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docmosis-automation`
 - **description**: Automate Docmosis tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docnify-automation
 
@@ -3348,7 +3390,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docnify-automation`
 - **description**: Automate Docnify tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docsumo-automation
 
@@ -3356,7 +3398,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docsumo-automation`
 - **description**: Automate Docsumo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docugenerate-automation
 
@@ -3364,7 +3406,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docugenerate-automation`
 - **description**: Automate Docugenerate tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## documenso-automation
 
@@ -3372,7 +3414,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `documenso-automation`
 - **description**: Automate Documenso tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## documint-automation
 
@@ -3380,7 +3422,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `documint-automation`
 - **description**: Automate Documint tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docupilot-automation
 
@@ -3388,7 +3430,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docupilot-automation`
 - **description**: Automate Docupilot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docupost-automation
 
@@ -3396,7 +3438,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docupost-automation`
 - **description**: Automate Docupost tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docuseal-automation
 
@@ -3404,7 +3446,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docuseal-automation`
 - **description**: Automate Docuseal tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docx
 
@@ -3412,7 +3454,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `docx`
 - **description**: Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## draftable-automation
 
@@ -3420,7 +3462,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `draftable-automation`
 - **description**: Automate Draftable tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dropbox-sign-automation
 
@@ -3428,7 +3470,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dropbox-sign-automation`
 - **description**: Automate Dropbox Sign tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## encodian-automation
 
@@ -3436,7 +3478,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `encodian-automation`
 - **description**: Automate Encodian tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## esignatures-io-automation
 
@@ -3444,7 +3486,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `esignatures-io-automation`
 - **description**: Automate Esignatures IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## etermin-automation
 
@@ -3452,7 +3494,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `etermin-automation`
 - **description**: Automate Etermin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## eversign-automation
 
@@ -3460,7 +3502,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `eversign-automation`
 - **description**: Automate Eversign tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## excel-automation
 
@@ -3468,7 +3510,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `excel-automation`
 - **description**: Excel Automation: create workbooks, manage worksheets, read/write cell data, and format spreadsheets via Microsoft Excel and Google Sheets integration
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## extracta-ai-automation
 
@@ -3476,7 +3518,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `extracta-ai-automation`
 - **description**: Automate Extracta AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## file-organizer
 
@@ -3484,7 +3526,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: community
 - **directory**: `file-organizer`
 - **description**: Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## files-com-automation
 
@@ -3492,7 +3534,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `files-com-automation`
 - **description**: Automate Files Com tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## firmao-automation
 
@@ -3500,7 +3542,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `firmao-automation`
 - **description**: Automate Firmao tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googledocs-automation
 
@@ -3508,7 +3550,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googledocs-automation`
 - **description**: Automate Google Docs tasks via Rube MCP (Composio): create, edit, search, export, copy, and update documents. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googledrive-automation
 
@@ -3516,7 +3558,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googledrive-automation`
 - **description**: Automate Google Drive tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googleslides-automation
 
@@ -3524,7 +3566,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googleslides-automation`
 - **description**: Automate Google Slides tasks via Rube MCP (Composio): create presentations, add slides from Markdown, batch update, copy from templates, get thumbnails. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## heyzine-automation
 
@@ -3532,7 +3574,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `heyzine-automation`
 - **description**: Automate Heyzine tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ignisign-automation
 
@@ -3540,7 +3582,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ignisign-automation`
 - **description**: Automate Ignisign tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## intelliprint-automation
 
@@ -3548,7 +3590,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `intelliprint-automation`
 - **description**: Automate Intelliprint tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## invoice-organizer
 
@@ -3556,7 +3598,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: community
 - **directory**: `invoice-organizer`
 - **description**: Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information, renaming them consistently, and sorting them into logical folders. Turns hours of manual bookkeeping into minutes of automated organization.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kaleido-automation
 
@@ -3564,7 +3606,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kaleido-automation`
 - **description**: Automate Kaleido tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kickbox-automation
 
@@ -3572,7 +3614,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kickbox-automation`
 - **description**: Automate Kickbox tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ocr-web-service-automation
 
@@ -3580,7 +3622,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ocr-web-service-automation`
 - **description**: Automate OCR Web Service tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ocrspace-automation
 
@@ -3588,7 +3630,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ocrspace-automation`
 - **description**: Automate Ocrspace tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pandadoc-automation
 
@@ -3596,7 +3638,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pandadoc-automation`
 - **description**: Automate document workflows with PandaDoc -- create documents from files, manage contacts, organize folders, set up webhooks, create templates, and track document status through the Composio PandaDoc integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## parseur-automation
 
@@ -3604,7 +3646,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `parseur-automation`
 - **description**: Automate Parseur tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pdf
 
@@ -3612,7 +3654,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `pdf`
 - **description**: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pdf-api-io-automation
 
@@ -3620,7 +3662,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pdf-api-io-automation`
 - **description**: Automate PDF API IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pdf-co-automation
 
@@ -3628,7 +3670,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pdf-co-automation`
 - **description**: Automate PDF co tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pdf4me-automation
 
@@ -3636,7 +3678,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pdf4me-automation`
 - **description**: Automate Pdf4me tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pdfless-automation
 
@@ -3644,7 +3686,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pdfless-automation`
 - **description**: Automate Pdfless tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pdfmonkey-automation
 
@@ -3652,7 +3694,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pdfmonkey-automation`
 - **description**: Automate Pdfmonkey tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pptx
 
@@ -3660,7 +3702,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `pptx`
 - **description**: Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## printautopilot-automation
 
@@ -3668,7 +3710,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `printautopilot-automation`
 - **description**: Automate Printautopilot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## share-point-automation
 
@@ -3676,7 +3718,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `share-point-automation`
 - **description**: SharePoint Automation: manage sites, lists, documents, folders, pages, and search content across SharePoint and OneDrive
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## share_point-automation
 
@@ -3684,7 +3726,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `share_point-automation`
 - **description**: Automate SharePoint tasks via Rube MCP (Composio): document libraries, sites, lists, and content management. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## signaturely-automation
 
@@ -3692,7 +3734,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `signaturely-automation`
 - **description**: Automate Signaturely tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## signpath-automation
 
@@ -3700,7 +3742,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `signpath-automation`
 - **description**: Automate Signpath tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## signwell-automation
 
@@ -3708,7 +3750,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `signwell-automation`
 - **description**: Automate Signwell tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## templated-automation
 
@@ -3716,7 +3758,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `templated-automation`
 - **description**: Automate Templated tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## text-to-pdf-automation
 
@@ -3724,7 +3766,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `text-to-pdf-automation`
 - **description**: Automate Text To PDF tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## visme-automation
 
@@ -3732,7 +3774,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `visme-automation`
 - **description**: Automate Visme tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## waiverfile-automation
 
@@ -3740,7 +3782,7 @@
 - **category**: documents-files  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `waiverfile-automation`
 - **description**: Automate Waiverfile tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## xlsx
 
@@ -3748,7 +3790,7 @@
 - **category**: documents-files  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `xlsx`
 - **description**: Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## amazon-automation
 
@@ -3756,7 +3798,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `amazon-automation`
 - **description**: Automate Amazon tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## amcards-automation
 
@@ -3764,7 +3806,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `amcards-automation`
 - **description**: Automate Amcards tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## baselinker-automation
 
@@ -3772,7 +3814,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `baselinker-automation`
 - **description**: Automate Baselinker tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## beaconstac-automation
 
@@ -3780,7 +3822,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `beaconstac-automation`
 - **description**: Automate Beaconstac tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bestbuy-automation
 
@@ -3788,7 +3830,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bestbuy-automation`
 - **description**: Automate Bestbuy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## better-proposals-automation
 
@@ -3796,7 +3838,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `better-proposals-automation`
 - **description**: Automate Better Proposals tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## blackbaud-automation
 
@@ -3804,7 +3846,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `blackbaud-automation`
 - **description**: Automate Blackbaud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## braintree-automation
 
@@ -3812,7 +3854,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `braintree-automation`
 - **description**: Braintree Automation: manage payment processing via Stripe-compatible tools for customers, subscriptions, payment methods, and transactions
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brightpearl-automation
 
@@ -3820,7 +3862,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `brightpearl-automation`
 - **description**: Automate Brightpearl tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cults-automation
 
@@ -3828,7 +3870,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cults-automation`
 - **description**: Automate Cults tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## daffy-automation
 
@@ -3836,7 +3878,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `daffy-automation`
 - **description**: Automate Daffy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dpd2-automation
 
@@ -3844,7 +3886,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dpd2-automation`
 - **description**: Automate Dpd2 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## echtpost-automation
 
@@ -3852,7 +3894,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `echtpost-automation`
 - **description**: Automate Echtpost tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## foursquare-automation
 
@@ -3860,7 +3902,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `foursquare-automation`
 - **description**: Automate Foursquare tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gift-up-automation
 
@@ -3868,7 +3910,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gift-up-automation`
 - **description**: Automate Gift Up tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## givebutter-automation
 
@@ -3876,7 +3918,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `givebutter-automation`
 - **description**: Automate Givebutter tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gumroad-automation
 
@@ -3884,7 +3926,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gumroad-automation`
 - **description**: Automate Gumroad product management, sales tracking, license verification, and webhook subscriptions using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## instacart-automation
 
@@ -3892,7 +3934,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `instacart-automation`
 - **description**: Automate Instacart tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## junglescout-automation
 
@@ -3900,7 +3942,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `junglescout-automation`
 - **description**: Automate Junglescout tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ko-fi-automation
 
@@ -3908,7 +3950,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ko-fi-automation`
 - **description**: Automate Ko Fi tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kraken-io-automation
 
@@ -3916,7 +3958,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kraken-io-automation`
 - **description**: Automate Kraken IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lemon-squeezy-automation
 
@@ -3925,7 +3967,7 @@
 - **directory**: `lemon-squeezy-automation`
 - **aliases**: lemon_squeezy-automation
 - **description**: Automate Lemon Squeezy store management -- products, orders, subscriptions, customers, discounts, and checkout tracking -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## loyverse-automation
 
@@ -3933,7 +3975,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `loyverse-automation`
 - **description**: Automate Loyverse tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## payhip-automation
 
@@ -3941,7 +3983,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `payhip-automation`
 - **description**: Automate Payhip tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## postgrid-automation
 
@@ -3949,7 +3991,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `postgrid-automation`
 - **description**: Automate Postgrid tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## postgrid-verify-automation
 
@@ -3957,7 +3999,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `postgrid-verify-automation`
 - **description**: Automate Postgrid Verify tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## raisely-automation
 
@@ -3965,7 +4007,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `raisely-automation`
 - **description**: Automate Raisely tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## repairshopr-automation
 
@@ -3973,7 +4015,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `repairshopr-automation`
 - **description**: Automate Repairshopr tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## retailed-automation
 
@@ -3981,7 +4023,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `retailed-automation`
 - **description**: Automate Retailed tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## shipengine-automation
 
@@ -3989,7 +4031,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `shipengine-automation`
 - **description**: Automate Shipengine tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## storeganise-automation
 
@@ -3997,7 +4039,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `storeganise-automation`
 - **description**: Automate Storeganise tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## storerocket-automation
 
@@ -4005,7 +4047,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `storerocket-automation`
 - **description**: Automate Storerocket tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zylvie-automation
 
@@ -4013,7 +4055,7 @@
 - **category**: ecommerce-retail  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zylvie-automation`
 - **description**: Automate Zylvie tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## blackboard-automation
 
@@ -4021,7 +4063,7 @@
 - **category**: education  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `blackboard-automation`
 - **description**: Automate Blackboard tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## classmarker-automation
 
@@ -4029,7 +4071,7 @@
 - **category**: education  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `classmarker-automation`
 - **description**: Automate Classmarker tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## coassemble-automation
 
@@ -4037,7 +4079,7 @@
 - **category**: education  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `coassemble-automation`
 - **description**: Automate Coassemble tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## d2lbrightspace-automation
 
@@ -4045,7 +4087,7 @@
 - **category**: education  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `d2lbrightspace-automation`
 - **description**: Automate D2lbrightspace tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## google-classroom-automation
 
@@ -4054,7 +4096,7 @@
 - **directory**: `google-classroom-automation`
 - **aliases**: google_classroom-automation
 - **description**: Automate Google Classroom tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lessonspace-automation
 
@@ -4062,7 +4104,7 @@
 - **category**: education  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lessonspace-automation`
 - **description**: Automate Lessonspace tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## linguapop-automation
 
@@ -4070,7 +4112,7 @@
 - **category**: education  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `linguapop-automation`
 - **description**: Automate Linguapop tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## alchemy-automation
 
@@ -4078,7 +4120,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `alchemy-automation`
 - **description**: Automate Alchemy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## alpha-vantage-automation
 
@@ -4086,7 +4128,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `alpha-vantage-automation`
 - **description**: Automate Alpha Vantage tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## altoviz-automation
 
@@ -4094,7 +4136,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `altoviz-automation`
 - **description**: Automate Altoviz tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## beaconchain-automation
 
@@ -4102,7 +4144,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `beaconchain-automation`
 - **description**: Automate Beaconchain tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bench-automation
 
@@ -4110,7 +4152,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bench-automation`
 - **description**: Automate Bench tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## benchmark-email-automation
 
@@ -4118,7 +4160,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `benchmark-email-automation`
 - **description**: Automate Benchmark Email tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## benzinga-automation
 
@@ -4126,7 +4168,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `benzinga-automation`
 - **description**: Automate Benzinga tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bitquery-automation
 
@@ -4134,7 +4176,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bitquery-automation`
 - **description**: Automate Bitquery tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## blocknative-automation
 
@@ -4142,7 +4184,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `blocknative-automation`
 - **description**: Automate Blocknative tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brex-automation
 
@@ -4150,7 +4192,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `brex-automation`
 - **description**: Automate Brex tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brex-staging-automation
 
@@ -4158,7 +4200,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `brex-staging-automation`
 - **description**: Automate Brex Staging tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## btcpay-server-automation
 
@@ -4166,7 +4208,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `btcpay-server-automation`
 - **description**: Automate Btcpay Server tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## coinbase-automation
 
@@ -4174,7 +4216,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `coinbase-automation`
 - **description**: Coinbase Automation: list and manage cryptocurrency wallets, accounts, and portfolio data via Coinbase CDP SDK
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## coinmarketcal-automation
 
@@ -4182,7 +4224,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `coinmarketcal-automation`
 - **description**: Automate Coinmarketcal tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## coinmarketcap-automation
 
@@ -4190,7 +4232,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `coinmarketcap-automation`
 - **description**: Automate Coinmarketcap tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## coinranking-automation
 
@@ -4198,7 +4240,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `coinranking-automation`
 - **description**: Automate Coinranking tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## coupa-automation
 
@@ -4206,7 +4248,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `coupa-automation`
 - **description**: Automate Coupa tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## elorus-automation
 
@@ -4214,7 +4256,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `elorus-automation`
 - **description**: Automate Elorus tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## eodhd-apis-automation
 
@@ -4222,7 +4264,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `eodhd-apis-automation`
 - **description**: Automate Eodhd Apis tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## finage-automation
 
@@ -4230,7 +4272,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `finage-automation`
 - **description**: Automate Finage tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## finmei-automation
 
@@ -4238,7 +4280,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `finmei-automation`
 - **description**: Automate Finmei tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fixer-automation
 
@@ -4246,7 +4288,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fixer-automation`
 - **description**: Automate Fixer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fixer-io-automation
 
@@ -4254,7 +4296,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fixer-io-automation`
 - **description**: Automate Fixer IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## flutterwave-automation
 
@@ -4262,7 +4304,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `flutterwave-automation`
 - **description**: Automate Flutterwave tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fraudlabs-pro-automation
 
@@ -4270,7 +4312,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fraudlabs-pro-automation`
 - **description**: Automate Fraudlabs Pro tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## freshbooks-automation
 
@@ -4278,7 +4320,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `freshbooks-automation`
 - **description**: FreshBooks Automation: manage businesses, projects, time tracking, and billing in FreshBooks cloud accounting
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## helcim-automation
 
@@ -4286,7 +4328,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `helcim-automation`
 - **description**: Automate Helcim tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lexoffice-automation
 
@@ -4294,7 +4336,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lexoffice-automation`
 - **description**: Automate Lexoffice tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mboum-automation
 
@@ -4302,7 +4344,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mboum-automation`
 - **description**: Automate Mboum tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## minerstat-automation
 
@@ -4310,7 +4352,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `minerstat-automation`
 - **description**: Automate Minerstat tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## moneybird-automation
 
@@ -4318,7 +4360,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `moneybird-automation`
 - **description**: Automate Moneybird tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## moonclerk-automation
 
@@ -4326,7 +4368,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `moonclerk-automation`
 - **description**: Automate Moonclerk tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## nasdaq-automation
 
@@ -4334,7 +4376,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `nasdaq-automation`
 - **description**: Automate Nasdaq tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## netsuite-automation
 
@@ -4342,7 +4384,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `netsuite-automation`
 - **description**: NetSuite Automation: manage customers, sales orders, invoices, inventory, and records via Oracle NetSuite ERP with SuiteQL queries
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## open-sea-automation
 
@@ -4350,7 +4392,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `open-sea-automation`
 - **description**: Automate Open Sea tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## plisio-automation
 
@@ -4358,7 +4400,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `plisio-automation`
 - **description**: Automate Plisio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## polygon-automation
 
@@ -4366,7 +4408,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `polygon-automation`
 - **description**: Automate Polygon tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## polygon-io-automation
 
@@ -4374,7 +4416,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `polygon-io-automation`
 - **description**: Automate Polygon IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## quaderno-automation
 
@@ -4382,7 +4424,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `quaderno-automation`
 - **description**: Automate Quaderno tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## quickbooks-automation
 
@@ -4390,7 +4432,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `quickbooks-automation`
 - **description**: QuickBooks Automation: manage invoices, customers, accounts, and payments in QuickBooks Online for streamlined bookkeeping
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ramp-automation
 
@@ -4398,7 +4440,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ramp-automation`
 - **description**: Ramp Automation: manage corporate card transactions, reimbursements, users, and expense tracking via the Ramp platform
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sage-automation
 
@@ -4406,7 +4448,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sage-automation`
 - **description**: Automate Sage tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sevdesk-automation
 
@@ -4414,7 +4456,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sevdesk-automation`
 - **description**: Automate Sevdesk tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## splitwise-automation
 
@@ -4422,7 +4464,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `splitwise-automation`
 - **description**: Automate Splitwise tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## spondyr-automation
 
@@ -4430,7 +4472,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `spondyr-automation`
 - **description**: Automate Spondyr tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## starton-automation
 
@@ -4438,7 +4480,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `starton-automation`
 - **description**: Automate Starton tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## taxjar-automation
 
@@ -4446,7 +4488,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `taxjar-automation`
 - **description**: Automate Taxjar tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## token-metrics-automation
 
@@ -4454,7 +4496,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `token-metrics-automation`
 - **description**: Automate Token Metrics tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## twelve-data-automation
 
@@ -4462,7 +4504,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `twelve-data-automation`
 - **description**: Automate Twelve Data tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## venly-automation
 
@@ -4470,7 +4512,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `venly-automation`
 - **description**: Automate Venly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wave-accounting-automation
 
@@ -4479,7 +4521,7 @@
 - **directory**: `wave-accounting-automation`
 - **aliases**: wave_accounting-automation
 - **description**: Wave Accounting toolkit is not currently available as a native integration. No Wave-specific tools were found in the Composio platform. This skill is a placeholder pending future integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## xero-automation
 
@@ -4487,7 +4529,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `xero-automation`
 - **description**: Xero Automation: manage invoices, contacts, payments, bank transactions, and accounts in Xero for cloud-based bookkeeping
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ynab-automation
 
@@ -4495,7 +4537,7 @@
 - **category**: finance-payments  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ynab-automation`
 - **description**: Automate Ynab tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-books-automation
 
@@ -4504,7 +4546,7 @@
 - **directory**: `zoho-books-automation`
 - **aliases**: zoho_books-automation
 - **description**: Automate Zoho Books accounting workflows including invoice creation, bill management, contact lookup, payment tracking, and multi-organization support through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-inventory-automation
 
@@ -4513,7 +4555,7 @@
 - **directory**: `zoho-inventory-automation`
 - **aliases**: zoho_inventory-automation
 - **description**: Automate Zoho Inventory tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zoho-invoice-automation
 
@@ -4522,7 +4564,7 @@
 - **directory**: `zoho-invoice-automation`
 - **aliases**: zoho_invoice-automation
 - **description**: Automate Zoho Invoice tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## -21risk-automation
 
@@ -4530,7 +4572,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `-21risk-automation`
 - **description**: Automate 21risk tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## -2chat-automation
 
@@ -4538,7 +4580,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `-2chat-automation`
 - **description**: Automate 2chat tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## abuselpdb-automation
 
@@ -4546,7 +4588,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `abuselpdb-automation`
 - **description**: Automate Abuselpdb tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## acculynx-automation
 
@@ -4554,7 +4596,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `acculynx-automation`
 - **description**: Automate Acculynx tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## addresszen-automation
 
@@ -4562,7 +4604,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `addresszen-automation`
 - **description**: Automate Addresszen tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## adyntel-automation
 
@@ -4570,7 +4612,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `adyntel-automation`
 - **description**: Automate Adyntel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## aero-workflow-automation
 
@@ -4578,7 +4620,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `aero-workflow-automation`
 - **description**: Automate Aero Workflow tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## anonyflow-automation
 
@@ -4586,7 +4628,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `anonyflow-automation`
 - **description**: Automate Anonyflow tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ascora-automation
 
@@ -4594,7 +4636,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ascora-automation`
 - **description**: Automate Ascora tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## autom-automation
 
@@ -4602,7 +4644,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `autom-automation`
 - **description**: Automate Autom tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bonsai-automation
 
@@ -4610,7 +4652,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bonsai-automation`
 - **description**: Automate Bonsai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## borneo-automation
 
@@ -4618,7 +4660,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `borneo-automation`
 - **description**: Automate Borneo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## brilliant-directories-automation
 
@@ -4626,7 +4668,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `brilliant-directories-automation`
 - **description**: Automate Brilliant Directories tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## connect
 
@@ -4634,7 +4676,7 @@
 - **category**: general  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `connect`
 - **description**: Connect Claude to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## connect-apps
 
@@ -4642,7 +4684,7 @@
 - **category**: general  ·  **kind**: utility  ·  **source**: anthropic
 - **directory**: `connect-apps`
 - **description**: Connect Claude to external apps like Gmail, Slack, GitHub. Use this skill when the user wants to send emails, create issues, post messages, or take actions in external services.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## curated-automation
 
@@ -4650,7 +4692,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `curated-automation`
 - **description**: Automate Curated tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dotsimple-automation
 
@@ -4658,7 +4700,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dotsimple-automation`
 - **description**: Automate Dotsimple tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dovetail-automation
 
@@ -4666,7 +4708,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dovetail-automation`
 - **description**: Automate Dovetail tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## exist-automation
 
@@ -4674,7 +4716,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `exist-automation`
 - **description**: Automate Exist tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## faceup-automation
 
@@ -4682,7 +4724,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `faceup-automation`
 - **description**: Automate Faceup tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## finerworks-automation
 
@@ -4690,7 +4732,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `finerworks-automation`
 - **description**: Automate Finerworks tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fingertip-automation
 
@@ -4698,7 +4740,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fingertip-automation`
 - **description**: Automate Fingertip tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## github-vault-router
 
@@ -4706,7 +4748,7 @@
 - **category**: general  ·  **kind**: utility  ·  **source**: workflow
 - **directory**: `github-vault-router`
 - **description**: Initialize or maintain a GitHub project intake, mandatory thin discovery plus semantic project-reference routing, Agent capability cold-storage, or L1/L2 routing vault. Use when the user gives this repository link, asks to build or migrate the workflow, evaluate a GitHub repo into the vault, surface a relevant retained GitHub reference during a substantive task, inventory a Skill/Plugin/MCP/CLI, or update routing. Do not use for ordinary coding unrelated to repository intake or capability governance.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googlesuper-automation
 
@@ -4714,7 +4756,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googlesuper-automation`
 - **description**: Automate Google Super tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## highergov-automation
 
@@ -4722,7 +4764,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `highergov-automation`
 - **description**: Automate Highergov tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hystruct-automation
 
@@ -4730,7 +4772,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hystruct-automation`
 - **description**: Automate Hystruct tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## icypeas-automation
 
@@ -4738,7 +4780,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `icypeas-automation`
 - **description**: Automate Icypeas tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## idea-scale-automation
 
@@ -4746,7 +4788,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `idea-scale-automation`
 - **description**: Automate Idea Scale tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## karpathy-guidelines
 
@@ -4754,7 +4796,7 @@
 - **category**: general  ·  **kind**: utility  ·  **source**: community
 - **directory**: `karpathy-guidelines`
 - **description**: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## l2s-automation
 
@@ -4762,7 +4804,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `l2s-automation`
 - **description**: Automate L2s tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## modelry-automation
 
@@ -4770,7 +4812,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `modelry-automation`
 - **description**: Automate Modelry tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## more-trees-automation
 
@@ -4778,7 +4820,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `more-trees-automation`
 - **description**: Automate More Trees tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mx-technologies-automation
 
@@ -4786,7 +4828,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mx-technologies-automation`
 - **description**: Automate MX Technologies tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ncscale-automation
 
@@ -4794,7 +4836,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ncscale-automation`
 - **description**: Automate Ncscale tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## needle-automation
 
@@ -4802,7 +4844,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `needle-automation`
 - **description**: Automate Needle tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## onedesk-automation
 
@@ -4810,7 +4852,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `onedesk-automation`
 - **description**: Automate Onedesk tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## onepage-automation
 
@@ -4818,7 +4860,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `onepage-automation`
 - **description**: Automate Onepage tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## optimize-agent-capabilities
 
@@ -4826,7 +4868,7 @@
 - **category**: general  ·  **kind**: utility  ·  **source**: community
 - **directory**: `optimize-agent-capabilities`
 - **description**: Read-only audit of Skill, Plugin, MCP, hook, and rules visibility across coding-agent clients. Use when the user requests capability inventory, routing analysis, or a repeat audit after client or extension updates. Never change files or client configuration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## owl-protocol-automation
 
@@ -4834,7 +4876,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `owl-protocol-automation`
 - **description**: Automate Owl Protocol tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## page-x-automation
 
@@ -4842,7 +4884,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `page-x-automation`
 - **description**: Automate Page X tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## paradym-automation
 
@@ -4850,7 +4892,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `paradym-automation`
 - **description**: Automate Paradym tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## parallel-automation
 
@@ -4858,7 +4900,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `parallel-automation`
 - **description**: Automate Parallel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## piggy-automation
 
@@ -4866,7 +4908,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `piggy-automation`
 - **description**: Automate Piggy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## pilvio-automation
 
@@ -4874,7 +4916,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `pilvio-automation`
 - **description**: Automate Pilvio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## precoro-automation
 
@@ -4882,7 +4924,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `precoro-automation`
 - **description**: Automate Precoro tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## procfu-automation
 
@@ -4890,7 +4932,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `procfu-automation`
 - **description**: Automate Procfu tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## raffle-winner-picker
 
@@ -4898,7 +4940,7 @@
 - **category**: general  ·  **kind**: utility  ·  **source**: community
 - **directory**: `raffle-winner-picker`
 - **description**: Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, unbiased selection with transparency.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rkvst-automation
 
@@ -4906,7 +4948,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rkvst-automation`
 - **description**: Automate Rkvst tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## safetyculture-automation
 
@@ -4914,7 +4956,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `safetyculture-automation`
 - **description**: Automate Safetyculture tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## short-menu-automation
 
@@ -4922,15 +4964,15 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `short-menu-automation`
 - **description**: Automate Short Menu tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## skill-capability-router
 
 - **base / capability**: use Skill Capability Router — Route a task to the best installed skill from a generated capability registry (8
 - **category**: general  ·  **kind**: utility  ·  **source**: community
 - **directory**: `skill-capability-router`
-- **description**: Route a task to the best installed skill from a generated capability registry (845 skills managed by CC Switch). Use when the user names or implies a tool, app, platform, or domain and the correct installed skill must be selected.
-- **enabled**: claude  (claude=1, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **description**: Route a task to the best installed skill from a generated capability registry (850+ skills managed by CC Switch). Use when the user names or implies a tool, app, platform, or domain and the correct installed skill must be selected — e.g. "automate Xero", "send a Slack message", "work on a PDF", "query Snowflake", "pull CRM leads", "track time", "generate an image". Also use when it is unclear which installed skill matches a task. Do not use for ordinary coding unrelated to skill selection.
+- **enabled**: claude, codex, grokbuild  (claude=1, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## skyfire-automation
 
@@ -4938,7 +4980,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `skyfire-automation`
 - **description**: Automate Skyfire tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tpscheck-automation
 
@@ -4946,7 +4988,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tpscheck-automation`
 - **description**: Automate Tpscheck tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## u301-automation
 
@@ -4954,7 +4996,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `u301-automation`
 - **description**: Automate U301 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## whautomate-automation
 
@@ -4962,7 +5004,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `whautomate-automation`
 - **description**: Automate Whautomate tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## y-gy-automation
 
@@ -4970,7 +5012,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `y-gy-automation`
 - **description**: Automate Y Gy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## yelp-automation
 
@@ -4978,7 +5020,7 @@
 - **category**: general  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `yelp-automation`
 - **description**: Automate Yelp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fitbit-automation
 
@@ -4986,7 +5028,7 @@
 - **category**: health-fitness  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fitbit-automation`
 - **description**: Automate Fitbit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## strava-automation
 
@@ -4994,7 +5036,7 @@
 - **category**: health-fitness  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `strava-automation`
 - **description**: Automate Strava tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ashby-automation
 
@@ -5002,7 +5044,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ashby-automation`
 - **description**: Automate recruiting and hiring workflows in Ashby -- manage candidates, jobs, applications, interviews, and notes through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## async-interview-automation
 
@@ -5010,7 +5052,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `async-interview-automation`
 - **description**: Automate Async Interview tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## breezy-hr-automation
 
@@ -5018,7 +5060,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `breezy-hr-automation`
 - **description**: Automate Breezy HR tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cats-automation
 
@@ -5026,7 +5068,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cats-automation`
 - **description**: Automate Cats tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## connecteam-automation
 
@@ -5034,7 +5076,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `connecteam-automation`
 - **description**: Automate Connecteam tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## deel-automation
 
@@ -5042,7 +5084,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `deel-automation`
 - **description**: Automate Deel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## factorial-automation
 
@@ -5050,7 +5092,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `factorial-automation`
 - **description**: Automate Factorial tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## icims-talent-cloud-automation
 
@@ -5058,7 +5100,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `icims-talent-cloud-automation`
 - **description**: Automate Icims Talent Cloud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lever-automation
 
@@ -5066,7 +5108,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lever-automation`
 - **description**: Automate recruiting workflows in Lever ATS -- manage opportunities, job postings, requisitions, pipeline stages, and candidate tags through the Composio Lever integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lever-sandbox-automation
 
@@ -5074,7 +5116,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lever-sandbox-automation`
 - **description**: Automate Lever Sandbox tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## leverly-automation
 
@@ -5082,7 +5124,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `leverly-automation`
 - **description**: Automate Leverly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## recruitee-automation
 
@@ -5090,7 +5132,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `recruitee-automation`
 - **description**: Automate Recruitee tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rippling-automation
 
@@ -5098,7 +5140,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rippling-automation`
 - **description**: Automate Rippling tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sap-successfactors-automation
 
@@ -5106,7 +5148,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sap-successfactors-automation`
 - **description**: Automate SAP SuccessFactors tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## smartrecruiters-automation
 
@@ -5114,7 +5156,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `smartrecruiters-automation`
 - **description**: Automate Smartrecruiters tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tailored-resume-generator
 
@@ -5122,7 +5164,7 @@
 - **category**: hr-recruiting  ·  **kind**: utility  ·  **source**: community
 - **directory**: `tailored-resume-generator`
 - **description**: Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## talenthr-automation
 
@@ -5130,7 +5172,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `talenthr-automation`
 - **description**: Automate Talenthr tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## workable-automation
 
@@ -5138,7 +5180,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `workable-automation`
 - **description**: Automate Workable tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## workday-automation
 
@@ -5146,7 +5188,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `workday-automation`
 - **description**: Automate HR operations in Workday -- manage workers, time off requests, absence balances, and employee data through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## worksnaps-automation
 
@@ -5154,7 +5196,7 @@
 - **category**: hr-recruiting  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `worksnaps-automation`
 - **description**: Automate Worksnaps tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## detrack-automation
 
@@ -5162,7 +5204,7 @@
 - **category**: logistics-field  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `detrack-automation`
 - **description**: Automate Detrack tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## optimoroute-automation
 
@@ -5170,7 +5212,7 @@
 - **category**: logistics-field  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `optimoroute-automation`
 - **description**: Automate Optimoroute tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## route4me-automation
 
@@ -5178,7 +5220,7 @@
 - **category**: logistics-field  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `route4me-automation`
 - **description**: Automate Route4me tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## servicem8-automation
 
@@ -5186,7 +5228,7 @@
 - **category**: logistics-field  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `servicem8-automation`
 - **description**: Automate Servicem8 tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## active-campaign-automation
 
@@ -5194,7 +5236,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `active-campaign-automation`
 - **description**: Automate ActiveCampaign tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## basin-automation
 
@@ -5202,7 +5244,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `basin-automation`
 - **description**: Automate Basin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## beamer-automation
 
@@ -5210,7 +5252,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `beamer-automation`
 - **description**: Automate Beamer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## boloforms-automation
 
@@ -5218,7 +5260,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `boloforms-automation`
 - **description**: Automate Boloforms tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bouncer-automation
 
@@ -5226,7 +5268,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bouncer-automation`
 - **description**: Automate Bouncer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## buildkite-automation
 
@@ -5234,7 +5276,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `buildkite-automation`
 - **description**: Automate Buildkite tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## byteforms-automation
 
@@ -5242,7 +5284,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `byteforms-automation`
 - **description**: Automate Byteforms tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## campaign-cleaner-automation
 
@@ -5250,7 +5292,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `campaign-cleaner-automation`
 - **description**: Automate Campaign Cleaner tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## campayn-automation
 
@@ -5258,7 +5300,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `campayn-automation`
 - **description**: Automate Campayn tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cdr-platform-automation
 
@@ -5266,7 +5308,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cdr-platform-automation`
 - **description**: Automate Cdr Platform tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## chaser-automation
 
@@ -5274,7 +5316,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `chaser-automation`
 - **description**: Automate Chaser tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## chatbotkit-automation
 
@@ -5282,7 +5324,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `chatbotkit-automation`
 - **description**: Automate Chatbotkit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## clearout-automation
 
@@ -5290,7 +5332,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `clearout-automation`
 - **description**: Automate Clearout tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## customerio-automation
 
@@ -5298,7 +5340,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `customerio-automation`
 - **description**: Automate customer engagement workflows including broadcast triggers, message analytics, segment management, and newsletter tracking through Customer.io via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## doppler-marketing-automation-automation
 
@@ -5306,7 +5348,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `doppler-marketing-automation-automation`
 - **description**: Automate Doppler Marketing Automation tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## drip-jobs-automation
 
@@ -5314,7 +5356,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `drip-jobs-automation`
 - **description**: Automate Drip Jobs tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dripcel-automation
 
@@ -5322,7 +5364,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dripcel-automation`
 - **description**: Automate Dripcel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## emailable-automation
 
@@ -5330,7 +5372,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `emailable-automation`
 - **description**: Automate Emailable tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## emaillistverify-automation
 
@@ -5338,7 +5380,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `emaillistverify-automation`
 - **description**: Automate Emaillistverify tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## emailoctopus-automation
 
@@ -5346,7 +5388,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `emailoctopus-automation`
 - **description**: Automate Emailoctopus tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## emelia-automation
 
@@ -5354,7 +5396,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `emelia-automation`
 - **description**: Automate Emelia tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## endorsal-automation
 
@@ -5362,7 +5404,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `endorsal-automation`
 - **description**: Automate Endorsal tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## enginemailer-automation
 
@@ -5370,7 +5412,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `enginemailer-automation`
 - **description**: Automate Enginemailer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## esputnik-automation
 
@@ -5378,7 +5420,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `esputnik-automation`
 - **description**: Automate Esputnik tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## feathery-automation
 
@@ -5386,7 +5428,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `feathery-automation`
 - **description**: Automate Feathery tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fillout-forms-automation
 
@@ -5395,7 +5437,7 @@
 - **directory**: `fillout-forms-automation`
 - **aliases**: fillout_forms-automation
 - **description**: Automate Fillout tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## findymail-automation
 
@@ -5403,7 +5445,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `findymail-automation`
 - **description**: Automate Findymail tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fomo-automation
 
@@ -5411,7 +5453,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fomo-automation`
 - **description**: Automate Fomo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## formbricks-automation
 
@@ -5419,7 +5461,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `formbricks-automation`
 - **description**: Automate Formbricks tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## formcarry-automation
 
@@ -5427,7 +5469,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `formcarry-automation`
 - **description**: Automate Formcarry tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## formdesk-automation
 
@@ -5435,7 +5477,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `formdesk-automation`
 - **description**: Automate Formdesk tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## formsite-automation
 
@@ -5443,7 +5485,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `formsite-automation`
 - **description**: Automate Formsite tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fullenrich-automation
 
@@ -5451,7 +5493,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fullenrich-automation`
 - **description**: Automate Fullenrich tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gagelist-automation
 
@@ -5459,7 +5501,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gagelist-automation`
 - **description**: Automate Gagelist tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## getform-automation
 
@@ -5467,7 +5509,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `getform-automation`
 - **description**: Automate Getform tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## goodbits-automation
 
@@ -5475,7 +5517,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `goodbits-automation`
 - **description**: Automate Goodbits tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## goody-automation
 
@@ -5483,7 +5525,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `goody-automation`
 - **description**: Automate Goody tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hotspotsystem-automation
 
@@ -5491,7 +5533,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hotspotsystem-automation`
 - **description**: Automate Hotspotsystem tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hunter-automation
 
@@ -5499,7 +5541,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hunter-automation`
 - **description**: Automate Hunter.io email intelligence -- search domains for email addresses, find specific contacts, verify email deliverability, manage leads, and monitor account usage -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hyperise-automation
 
@@ -5507,7 +5549,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hyperise-automation`
 - **description**: Automate Hyperise tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## imagekit-io-automation
 
@@ -5515,7 +5557,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `imagekit-io-automation`
 - **description**: Automate Imagekit IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## instantly-automation
 
@@ -5523,7 +5565,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `instantly-automation`
 - **description**: Automate Instantly cold email outreach -- manage campaigns, sending accounts, lead lists, bulk lead imports, and campaign analytics -- using natural language through the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## jotform-automation
 
@@ -5531,7 +5573,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `jotform-automation`
 - **description**: Automate Jotform form listing, user management, activity history, folder organization, and plan inspection through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## kit-automation
 
@@ -5539,7 +5581,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `kit-automation`
 - **description**: Automate Kit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lemlist-automation
 
@@ -5547,7 +5589,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lemlist-automation`
 - **description**: Automate Lemlist multichannel outreach -- manage campaigns, enroll leads, add personalization variables, export campaign data, and handle unsubscribes via the Composio MCP integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## listclean-automation
 
@@ -5555,7 +5597,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `listclean-automation`
 - **description**: Automate Listclean tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailbluster-automation
 
@@ -5563,7 +5605,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailbluster-automation`
 - **description**: Automate Mailbluster tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailboxlayer-automation
 
@@ -5571,7 +5613,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailboxlayer-automation`
 - **description**: Automate Mailboxlayer tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailcheck-automation
 
@@ -5579,7 +5621,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailcheck-automation`
 - **description**: Automate Mailcheck tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailcoach-automation
 
@@ -5587,7 +5629,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailcoach-automation`
 - **description**: Automate Mailcoach tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailerlite-automation
 
@@ -5595,7 +5637,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailerlite-automation`
 - **description**: Automate email marketing workflows including subscriber management, campaign analytics, group segmentation, and account monitoring through MailerLite via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailersend-automation
 
@@ -5603,7 +5645,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailersend-automation`
 - **description**: Automate Mailersend tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mails-so-automation
 
@@ -5611,7 +5653,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mails-so-automation`
 - **description**: Automate Mails So tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mailsoftly-automation
 
@@ -5619,7 +5661,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mailsoftly-automation`
 - **description**: Automate Mailsoftly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## moosend-automation
 
@@ -5627,7 +5669,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `moosend-automation`
 - **description**: Automate Moosend tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## neverbounce-automation
 
@@ -5635,7 +5677,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `neverbounce-automation`
 - **description**: Automate Neverbounce tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## omnisend-automation
 
@@ -5643,7 +5685,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `omnisend-automation`
 - **description**: Automate ecommerce marketing workflows including contact management, bulk operations, and subscriber segmentation through Omnisend via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## persistiq-automation
 
@@ -5651,7 +5693,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `persistiq-automation`
 - **description**: Automate Persistiq tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## poptin-automation
 
@@ -5659,7 +5701,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `poptin-automation`
 - **description**: Automate Poptin tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## proofly-automation
 
@@ -5667,7 +5709,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `proofly-automation`
 - **description**: Automate Proofly tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## realphonevalidation-automation
 
@@ -5675,7 +5717,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `realphonevalidation-automation`
 - **description**: Automate Realphonevalidation tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## remarkety-automation
 
@@ -5683,7 +5725,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `remarkety-automation`
 - **description**: Automate Remarkety tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## reply-automation
 
@@ -5691,7 +5733,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `reply-automation`
 - **description**: Automate Reply tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## reply-io-automation
 
@@ -5699,7 +5741,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `reply-io-automation`
 - **description**: Automate Reply IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ritekit-automation
 
@@ -5707,7 +5749,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ritekit-automation`
 - **description**: Automate Ritekit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## salesforce-marketing-cloud-automation
 
@@ -5715,7 +5757,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `salesforce-marketing-cloud-automation`
 - **description**: Automate Salesforce Marketing Cloud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## segmetrics-automation
 
@@ -5723,7 +5765,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `segmetrics-automation`
 - **description**: Automate Segmetrics tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sendfox-automation
 
@@ -5731,7 +5773,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sendfox-automation`
 - **description**: Automate Sendfox tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sendlane-automation
 
@@ -5739,7 +5781,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sendlane-automation`
 - **description**: Automate Sendlane tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sendloop-automation
 
@@ -5747,7 +5789,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sendloop-automation`
 - **description**: Automate Sendloop tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sendspark-automation
 
@@ -5755,7 +5797,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sendspark-automation`
 - **description**: Automate Sendspark tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## spoki-automation
 
@@ -5763,7 +5805,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `spoki-automation`
 - **description**: Automate Spoki tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## stannp-automation
 
@@ -5771,7 +5813,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `stannp-automation`
 - **description**: Automate Stannp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tally-automation
 
@@ -5779,7 +5821,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tally-automation`
 - **description**: Automate Tally tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tapfiliate-automation
 
@@ -5787,7 +5829,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tapfiliate-automation`
 - **description**: Automate Tapfiliate tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tapform-automation
 
@@ -5795,7 +5837,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tapform-automation`
 - **description**: Automate Tapform tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## timekit-automation
 
@@ -5803,7 +5845,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `timekit-automation`
 - **description**: Automate Timekit tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tomba-automation
 
@@ -5811,7 +5853,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tomba-automation`
 - **description**: Automate Tomba tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## typefully-automation
 
@@ -5819,7 +5861,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `typefully-automation`
 - **description**: Automate Typefully tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## unione-automation
 
@@ -5827,7 +5869,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `unione-automation`
 - **description**: Automate Unione tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## userlist-automation
 
@@ -5835,7 +5877,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `userlist-automation`
 - **description**: Automate Userlist tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## verifiedemail-automation
 
@@ -5843,7 +5885,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `verifiedemail-automation`
 - **description**: Automate Verifiedemail tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## vero-automation
 
@@ -5851,7 +5893,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `vero-automation`
 - **description**: Automate Vero tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## woodpecker-co-automation
 
@@ -5859,7 +5901,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `woodpecker-co-automation`
 - **description**: Automate Woodpecker co tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zerobounce-automation
 
@@ -5867,7 +5909,7 @@
 - **category**: marketing-email  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zerobounce-automation`
 - **description**: Automate Zerobounce tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## agiled-automation
 
@@ -5875,7 +5917,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `agiled-automation`
 - **description**: Automate Agiled tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## appointo-automation
 
@@ -5883,7 +5925,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `appointo-automation`
 - **description**: Automate Appointo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## beeminder-automation
 
@@ -5891,7 +5933,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `beeminder-automation`
 - **description**: Automate Beeminder tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bigpicture-io-automation
 
@@ -5899,7 +5941,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bigpicture-io-automation`
 - **description**: Automate Bigpicture IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cal-automation
 
@@ -5907,7 +5949,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cal-automation`
 - **description**: Automate Cal tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## calendarhero-automation
 
@@ -5915,7 +5957,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `calendarhero-automation`
 - **description**: Automate Calendarhero tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## clockify-automation
 
@@ -5923,7 +5965,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `clockify-automation`
 - **description**: Automate time tracking workflows in Clockify -- create and manage time entries, workspaces, and users through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## deadline-funnel-automation
 
@@ -5931,7 +5973,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `deadline-funnel-automation`
 - **description**: Automate Deadline Funnel tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## desktime-automation
 
@@ -5939,7 +5981,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `desktime-automation`
 - **description**: Automate Desktime tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## everhour-automation
 
@@ -5947,7 +5989,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `everhour-automation`
 - **description**: Automate Everhour tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fibery-automation
 
@@ -5955,7 +5997,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fibery-automation`
 - **description**: Automate Fibery tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## fireflies-automation
 
@@ -5963,7 +6005,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `fireflies-automation`
 - **description**: Automate Fireflies tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gist-automation
 
@@ -5971,7 +6013,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gist-automation`
 - **description**: Automate Gist tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googlecalendar-automation
 
@@ -5979,7 +6021,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googlecalendar-automation`
 - **description**: Automate Google Calendar tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## googletasks-automation
 
@@ -5987,7 +6029,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `googletasks-automation`
 - **description**: Automate Google Tasks via Rube MCP (Composio): create, list, update, delete, move, and bulk-insert tasks and task lists. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## habitica-automation
 
@@ -5995,7 +6037,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `habitica-automation`
 - **description**: Automate Habitica tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## harvest-automation
 
@@ -6003,7 +6045,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `harvest-automation`
 - **description**: Automate time tracking, project management, and invoicing workflows in Harvest -- log hours, manage projects, clients, and tasks through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## leiga-automation
 
@@ -6011,7 +6053,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `leiga-automation`
 - **description**: Automate Leiga tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## loomio-automation
 
@@ -6019,7 +6061,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `loomio-automation`
 - **description**: Automate Loomio tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## maintainx-automation
 
@@ -6027,7 +6069,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `maintainx-automation`
 - **description**: Automate Maintainx tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## moco-automation
 
@@ -6035,7 +6077,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `moco-automation`
 - **description**: Automate Moco tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mural-automation
 
@@ -6043,7 +6085,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mural-automation`
 - **description**: Automate Mural tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## oncehub-automation
 
@@ -6051,7 +6093,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `oncehub-automation`
 - **description**: Automate Oncehub tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## process-street-automation
 
@@ -6059,7 +6101,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `process-street-automation`
 - **description**: Automate Process Street tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## productboard-automation
 
@@ -6067,7 +6109,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `productboard-automation`
 - **description**: Automate product management workflows in Productboard -- manage features, notes, objectives, components, and releases through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## productlane-automation
 
@@ -6075,7 +6117,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `productlane-automation`
 - **description**: Automate Productlane tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## project-bubble-automation
 
@@ -6083,7 +6125,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `project-bubble-automation`
 - **description**: Automate Project Bubble tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## shortcut-automation
 
@@ -6091,7 +6133,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `shortcut-automation`
 - **description**: Automate project management workflows in Shortcut -- create stories, manage tasks, track epics, and organize workflows through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## streamtime-automation
 
@@ -6099,7 +6141,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `streamtime-automation`
 - **description**: Automate Streamtime tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## survey-monkey-automation
 
@@ -6107,7 +6149,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `survey-monkey-automation`
 - **description**: Automate SurveyMonkey survey creation, response collection, collector management, and survey discovery through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## survey_monkey-automation
 
@@ -6115,7 +6157,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `survey_monkey-automation`
 - **description**: Automate SurveyMonkey tasks via Rube MCP (Composio): surveys, responses, collectors, and survey analytics. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## teamcamp-automation
 
@@ -6123,7 +6165,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `teamcamp-automation`
 - **description**: Automate Teamcamp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ticktick-automation
 
@@ -6131,7 +6173,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ticktick-automation`
 - **description**: Automate Ticktick tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## timecamp-automation
 
@@ -6139,7 +6181,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `timecamp-automation`
 - **description**: Automate Timecamp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## timelink-automation
 
@@ -6147,7 +6189,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `timelink-automation`
 - **description**: Automate Timelink tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## timely-automation
 
@@ -6155,7 +6197,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `timely-automation`
 - **description**: Automate Timely tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## toggl-automation
 
@@ -6163,7 +6205,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `toggl-automation`
 - **description**: Automate time tracking workflows in Toggl Track -- create time entries, manage projects, clients, tags, and workspaces through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## workiom-automation
 
@@ -6171,7 +6213,7 @@
 - **category**: project-management  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `workiom-automation`
 - **description**: Automate Workiom tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## adrapid-automation
 
@@ -6179,7 +6221,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `adrapid-automation`
 - **description**: Automate Adrapid tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ahrefs-automation
 
@@ -6187,7 +6229,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ahrefs-automation`
 - **description**: Automate SEO research with Ahrefs -- analyze backlink profiles, research keywords, track domain metrics history, audit organic rankings, and perform batch URL analysis through the Composio Ahrefs integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## builtwith-automation
 
@@ -6195,7 +6237,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `builtwith-automation`
 - **description**: Automate Builtwith tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## competitive-ads-extractor
 
@@ -6203,7 +6245,7 @@
 - **category**: seo-analytics  ·  **kind**: utility  ·  **source**: community
 - **directory**: `competitive-ads-extractor`
 - **description**: Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## google-search-console-automation
 
@@ -6212,7 +6254,7 @@
 - **directory**: `google-search-console-automation`
 - **aliases**: google_search_console-automation
 - **description**: Automate Google Search Console tasks via Rube MCP (Composio): query search analytics, list sites, inspect URLs, submit sitemaps, monitor search performance. Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## metaads-automation
 
@@ -6220,7 +6262,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `metaads-automation`
 - **description**: Automate Metaads tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## microsoft-clarity-automation
 
@@ -6229,7 +6271,7 @@
 - **directory**: `microsoft-clarity-automation`
 - **aliases**: microsoft_clarity-automation
 - **description**: Automate user behavior analytics with Microsoft Clarity -- export heatmap data, session metrics, and engagement analytics segmented by browser, device, country, source, and more through the Composio Microsoft Clarity integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## moz-automation
 
@@ -6237,7 +6279,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `moz-automation`
 - **description**: Automate Moz tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## neuronwriter-automation
 
@@ -6245,7 +6287,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `neuronwriter-automation`
 - **description**: Automate Neuronwriter tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ravenseotools-automation
 
@@ -6253,7 +6295,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ravenseotools-automation`
 - **description**: Automate Ravenseotools tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## semrush-automation
 
@@ -6261,7 +6303,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `semrush-automation`
 - **description**: Automate SEO analysis with SEMrush -- research keywords, analyze domain organic rankings, audit backlinks, assess keyword difficulty, and discover related terms through the Composio SEMrush integration.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## serpapi-automation
 
@@ -6269,7 +6311,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `serpapi-automation`
 - **description**: Automate Serpapi tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## serpdog-automation
 
@@ -6277,7 +6319,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `serpdog-automation`
 - **description**: Automate Serpdog tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## serply-automation
 
@@ -6285,7 +6327,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `serply-automation`
 - **description**: Automate Serply tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## similarweb-digitalrank-api-automation
 
@@ -6294,7 +6336,7 @@
 - **directory**: `similarweb-digitalrank-api-automation`
 - **aliases**: similarweb_digitalrank_api-automation
 - **description**: Automate SimilarWeb tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## zenserp-automation
 
@@ -6302,7 +6344,7 @@
 - **category**: seo-analytics  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `zenserp-automation`
 - **description**: Automate Zenserp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ayrshare-automation
 
@@ -6310,7 +6352,7 @@
 - **category**: social-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ayrshare-automation`
 - **description**: Automate Ayrshare tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## facebook-automation
 
@@ -6318,7 +6360,7 @@
 - **category**: social-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `facebook-automation`
 - **description**: Automate Facebook Page management including post creation, scheduling, video uploads, Messenger conversations, and audience engagement via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## giphy-automation
 
@@ -6326,7 +6368,7 @@
 - **category**: social-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `giphy-automation`
 - **description**: Automate Giphy tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## hypeauditor-automation
 
@@ -6334,7 +6376,7 @@
 - **category**: social-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `hypeauditor-automation`
 - **description**: Automate Hypeauditor tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## phantombuster-automation
 
@@ -6342,7 +6384,7 @@
 - **category**: social-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `phantombuster-automation`
 - **description**: Automate lead generation, web scraping, and social media data extraction workflows through PhantomBuster's cloud platform via Composio
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## slack-gif-creator
 
@@ -6350,7 +6392,7 @@
 - **category**: social-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `slack-gif-creator`
 - **description**: Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like "make me a GIF for Slack of X doing Y".
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## twitch-automation
 
@@ -6358,7 +6400,7 @@
 - **category**: social-media  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `twitch-automation`
 - **description**: Automate Twitch tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## twitter-algorithm-optimizer
 
@@ -6366,7 +6408,7 @@
 - **category**: social-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `twitter-algorithm-optimizer`
 - **description**: Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## video-downloader
 
@@ -6374,7 +6416,7 @@
 - **category**: social-media  ·  **kind**: utility  ·  **source**: community
 - **directory**: `video-downloader`
 - **description**: Download YouTube videos with customizable quality and format options. Use this skill when the user asks to download, save, or grab YouTube videos. Supports various quality settings (best, 1080p, 720p, 480p, 360p), multiple formats (mp4, webm, mkv), and audio-only downloads as MP3.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## api-sports-automation
 
@@ -6382,7 +6424,7 @@
 - **category**: sports-gaming  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `api-sports-automation`
 - **description**: Automate API Sports tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## battlenet-automation
 
@@ -6390,7 +6432,7 @@
 - **category**: sports-gaming  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `battlenet-automation`
 - **description**: Automate Battlenet tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## college-football-data-automation
 
@@ -6398,7 +6440,7 @@
 - **category**: sports-gaming  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `college-football-data-automation`
 - **description**: Automate College Football Data tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## dungeon-fighter-online-automation
 
@@ -6406,7 +6448,7 @@
 - **category**: sports-gaming  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `dungeon-fighter-online-automation`
 - **description**: Automate Dungeon Fighter Online tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## epic-games-automation
 
@@ -6414,7 +6456,7 @@
 - **category**: sports-gaming  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `epic-games-automation`
 - **description**: Automate Epic Games tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## the-odds-api-automation
 
@@ -6422,7 +6464,7 @@
 - **category**: sports-gaming  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `the-odds-api-automation`
 - **description**: Automate The Odds API tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## botbaba-automation
 
@@ -6430,7 +6472,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `botbaba-automation`
 - **description**: Automate Botbaba tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## botpress-automation
 
@@ -6438,7 +6480,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `botpress-automation`
 - **description**: Automate Botpress tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## botsonic-automation
 
@@ -6446,7 +6488,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `botsonic-automation`
 - **description**: Automate Botsonic tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## botstar-automation
 
@@ -6454,7 +6496,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `botstar-automation`
 - **description**: Automate Botstar tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## canny-automation
 
@@ -6462,7 +6504,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `canny-automation`
 - **description**: Automate Canny tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## chatfai-automation
 
@@ -6470,7 +6512,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `chatfai-automation`
 - **description**: Automate Chatfai tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## customgpt-automation
 
@@ -6478,7 +6520,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `customgpt-automation`
 - **description**: Automate Customgpt tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## docsbot-ai-automation
 
@@ -6486,7 +6528,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `docsbot-ai-automation`
 - **description**: Automate Docsbot AI tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## front-automation
 
@@ -6494,7 +6536,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `front-automation`
 - **description**: Automate Front tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gatherup-automation
 
@@ -6502,7 +6544,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gatherup-automation`
 - **description**: Automate Gatherup tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gleap-automation
 
@@ -6510,7 +6552,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gleap-automation`
 - **description**: Automate Gleap tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## gorgias-automation
 
@@ -6518,7 +6560,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `gorgias-automation`
 - **description**: Automate e-commerce customer support workflows in Gorgias -- manage tickets, customers, tags, and teams through natural language commands.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## helpwise-automation
 
@@ -6526,7 +6568,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `helpwise-automation`
 - **description**: Automate Helpwise tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## landbot-automation
 
@@ -6534,7 +6576,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `landbot-automation`
 - **description**: Automate Landbot tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## mopinion-automation
 
@@ -6542,7 +6584,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `mopinion-automation`
 - **description**: Automate Mopinion tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## plain-automation
 
@@ -6550,7 +6592,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `plain-automation`
 - **description**: Automate Plain tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## qualaroo-automation
 
@@ -6558,7 +6600,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `qualaroo-automation`
 - **description**: Automate Qualaroo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## re-amaze-automation
 
@@ -6566,7 +6608,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `re-amaze-automation`
 - **description**: Automate Re Amaze tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## refiner-automation
 
@@ -6574,7 +6616,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `refiner-automation`
 - **description**: Automate Refiner tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## respond-io-automation
 
@@ -6582,7 +6624,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `respond-io-automation`
 - **description**: Automate Respond IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## retently-automation
 
@@ -6590,7 +6632,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `retently-automation`
 - **description**: Automate Retently tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## salesforce-service-cloud-automation
 
@@ -6598,7 +6640,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `salesforce-service-cloud-automation`
 - **description**: Automate Salesforce Service Cloud tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## satismeter-automation
 
@@ -6606,7 +6648,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `satismeter-automation`
 - **description**: Automate Satismeter tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## simplesat-automation
 
@@ -6614,7 +6656,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `simplesat-automation`
 - **description**: Automate Simplesat tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## superchat-automation
 
@@ -6622,7 +6664,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `superchat-automation`
 - **description**: Automate Superchat tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## supportbee-automation
 
@@ -6630,7 +6672,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `supportbee-automation`
 - **description**: Automate Supportbee tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## supportivekoala-automation
 
@@ -6638,7 +6680,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `supportivekoala-automation`
 - **description**: Automate Supportivekoala tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## thanks-io-automation
 
@@ -6646,7 +6688,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `thanks-io-automation`
 - **description**: Automate Thanks IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## ticketmaster-automation
 
@@ -6654,7 +6696,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `ticketmaster-automation`
 - **description**: Automate Ticketmaster tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## wati-automation
 
@@ -6662,7 +6704,7 @@
 - **category**: support-helpdesk  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `wati-automation`
 - **description**: Automate Wati tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## apaleo-automation
 
@@ -6670,7 +6712,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `apaleo-automation`
 - **description**: Automate Apaleo tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bart-automation
 
@@ -6678,7 +6720,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bart-automation`
 - **description**: Automate Bart tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## bookingmood-automation
 
@@ -6686,7 +6728,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `bookingmood-automation`
 - **description**: Automate Bookingmood tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## booqable-automation
 
@@ -6694,7 +6736,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `booqable-automation`
 - **description**: Automate Booqable tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## cabinpanda-automation
 
@@ -6702,7 +6744,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `cabinpanda-automation`
 - **description**: Automate Cabinpanda tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## evenium-automation
 
@@ -6710,7 +6752,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `evenium-automation`
 - **description**: Automate Evenium tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## eventbrite-automation
 
@@ -6718,7 +6760,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `eventbrite-automation`
 - **description**: Automate Eventbrite event management, attendee tracking, organization discovery, and category browsing through natural language commands
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## eventee-automation
 
@@ -6726,7 +6768,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `eventee-automation`
 - **description**: Automate Eventee tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## eventzilla-automation
 
@@ -6734,7 +6776,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `eventzilla-automation`
 - **description**: Automate Eventzilla tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## expofp-automation
 
@@ -6742,7 +6784,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `expofp-automation`
 - **description**: Automate Expofp tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## humanitix-automation
 
@@ -6750,7 +6792,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `humanitix-automation`
 - **description**: Automate Humanitix tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## lodgify-automation
 
@@ -6758,7 +6800,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `lodgify-automation`
 - **description**: Automate Lodgify tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## rafflys-automation
 
@@ -6766,7 +6808,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `rafflys-automation`
 - **description**: Automate Rafflys tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## seat-geek-automation
 
@@ -6774,7 +6816,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `seat-geek-automation`
 - **description**: Automate Seat Geek tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## sympla-automation
 
@@ -6782,7 +6824,7 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `sympla-automation`
 - **description**: Automate Sympla tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
 
 ## tripadvisor-content-api-automation
 
@@ -6790,4 +6832,4 @@
 - **category**: travel-events  ·  **kind**: automation  ·  **source**: composio
 - **directory**: `tripadvisor-content-api-automation`
 - **description**: Automate TripAdvisor tasks via Rube MCP (Composio). Always search tools first for current schemas.
-- **enabled**: codex  (claude=0, codex=1, gemini=0, opencode=0, hermes=0, grokbuild=0)
+- **enabled**: grokbuild  (claude=0, codex=0, gemini=0, opencode=0, hermes=0, grokbuild=1)
